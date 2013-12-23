@@ -16,22 +16,13 @@
 		4E16CF3C18682BD200658FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E16CF3A18682BD200658FE0 /* Main.storyboard */; };
 		4E16CF3F18682BD200658FE0 /* LMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF3E18682BD200658FE0 /* LMPViewController.m */; };
 		4E16CF4118682BD200658FE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E16CF4018682BD200658FE0 /* Images.xcassets */; };
-		4E16CF4818682BD200658FE0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF4718682BD200658FE0 /* XCTest.framework */; };
-		4E16CF4918682BD200658FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF2818682BD200658FE0 /* Foundation.framework */; };
-		4E16CF4A18682BD200658FE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF2C18682BD200658FE0 /* UIKit.framework */; };
-		4E16CF5218682BD200658FE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E16CF5018682BD200658FE0 /* InfoPlist.strings */; };
-		4E16CF5418682BD200658FE0 /* LocationMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF5318682BD200658FE0 /* LocationMapperTests.m */; };
+		4E16CF68186832A800658FE0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF5F186832A800658FE0 /* FMDatabase.m */; };
+		4E16CF69186832A800658FE0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF61186832A800658FE0 /* FMDatabaseAdditions.m */; };
+		4E16CF6A186832A800658FE0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF63186832A800658FE0 /* FMDatabasePool.m */; };
+		4E16CF6B186832A800658FE0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF65186832A800658FE0 /* FMDatabaseQueue.m */; };
+		4E16CF6C186832A800658FE0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF67186832A800658FE0 /* FMResultSet.m */; };
+		4E16CF6E186832BC00658FE0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF6D186832BC00658FE0 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4E16CF4B18682BD200658FE0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4E16CF1D18682BD200658FE0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E16CF2418682BD200658FE0;
-			remoteInfo = LocationMapper;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4E16CF2518682BD200658FE0 /* LocationMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +39,18 @@
 		4E16CF3D18682BD200658FE0 /* LMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMPViewController.h; sourceTree = "<group>"; };
 		4E16CF3E18682BD200658FE0 /* LMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMPViewController.m; sourceTree = "<group>"; };
 		4E16CF4018682BD200658FE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4E16CF4618682BD200658FE0 /* LocationMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E16CF4718682BD200658FE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4E16CF4F18682BD200658FE0 /* LocationMapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationMapperTests-Info.plist"; sourceTree = "<group>"; };
-		4E16CF5118682BD200658FE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E16CF5318682BD200658FE0 /* LocationMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationMapperTests.m; sourceTree = "<group>"; };
+		4E16CF5E186832A800658FE0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = fmdb/src/FMDatabase.h; sourceTree = SOURCE_ROOT; };
+		4E16CF5F186832A800658FE0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = fmdb/src/FMDatabase.m; sourceTree = SOURCE_ROOT; };
+		4E16CF60186832A800658FE0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = fmdb/src/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
+		4E16CF61186832A800658FE0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = fmdb/src/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
+		4E16CF62186832A800658FE0 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = fmdb/src/FMDatabasePool.h; sourceTree = SOURCE_ROOT; };
+		4E16CF63186832A800658FE0 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = fmdb/src/FMDatabasePool.m; sourceTree = SOURCE_ROOT; };
+		4E16CF64186832A800658FE0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = fmdb/src/FMDatabaseQueue.h; sourceTree = SOURCE_ROOT; };
+		4E16CF65186832A800658FE0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = fmdb/src/FMDatabaseQueue.m; sourceTree = SOURCE_ROOT; };
+		4E16CF66186832A800658FE0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		4E16CF67186832A800658FE0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		4E16CF6D186832BC00658FE0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E16CF6E186832BC00658FE0 /* libsqlite3.dylib in Frameworks */,
 				4E16CF2B18682BD200658FE0 /* CoreGraphics.framework in Frameworks */,
 				4E16CF2D18682BD200658FE0 /* UIKit.framework in Frameworks */,
 				4E16CF2918682BD200658FE0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E16CF4318682BD200658FE0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E16CF4818682BD200658FE0 /* XCTest.framework in Frameworks */,
-				4E16CF4A18682BD200658FE0 /* UIKit.framework in Frameworks */,
-				4E16CF4918682BD200658FE0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				4E16CF2E18682BD200658FE0 /* LocationMapper */,
-				4E16CF4D18682BD200658FE0 /* LocationMapperTests */,
 				4E16CF2718682BD200658FE0 /* Frameworks */,
 				4E16CF2618682BD200658FE0 /* Products */,
 			);
@@ -93,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				4E16CF2518682BD200658FE0 /* LocationMapper.app */,
-				4E16CF4618682BD200658FE0 /* LocationMapperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +88,7 @@
 		4E16CF2718682BD200658FE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E16CF6D186832BC00658FE0 /* libsqlite3.dylib */,
 				4E16CF2818682BD200658FE0 /* Foundation.framework */,
 				4E16CF2A18682BD200658FE0 /* CoreGraphics.framework */,
 				4E16CF2C18682BD200658FE0 /* UIKit.framework */,
@@ -112,6 +100,7 @@
 		4E16CF2E18682BD200658FE0 /* LocationMapper */ = {
 			isa = PBXGroup;
 			children = (
+				4E16CF5D1868329A00658FE0 /* FMDB */,
 				4E16CF3718682BD200658FE0 /* LMPAppDelegate.h */,
 				4E16CF3818682BD200658FE0 /* LMPAppDelegate.m */,
 				4E16CF3A18682BD200658FE0 /* Main.storyboard */,
@@ -134,22 +123,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4E16CF4D18682BD200658FE0 /* LocationMapperTests */ = {
+		4E16CF5D1868329A00658FE0 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				4E16CF5318682BD200658FE0 /* LocationMapperTests.m */,
-				4E16CF4E18682BD200658FE0 /* Supporting Files */,
+				4E16CF5E186832A800658FE0 /* FMDatabase.h */,
+				4E16CF5F186832A800658FE0 /* FMDatabase.m */,
+				4E16CF60186832A800658FE0 /* FMDatabaseAdditions.h */,
+				4E16CF61186832A800658FE0 /* FMDatabaseAdditions.m */,
+				4E16CF62186832A800658FE0 /* FMDatabasePool.h */,
+				4E16CF63186832A800658FE0 /* FMDatabasePool.m */,
+				4E16CF64186832A800658FE0 /* FMDatabaseQueue.h */,
+				4E16CF65186832A800658FE0 /* FMDatabaseQueue.m */,
+				4E16CF66186832A800658FE0 /* FMResultSet.h */,
+				4E16CF67186832A800658FE0 /* FMResultSet.m */,
 			);
-			path = LocationMapperTests;
-			sourceTree = "<group>";
-		};
-		4E16CF4E18682BD200658FE0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E16CF4F18682BD200658FE0 /* LocationMapperTests-Info.plist */,
-				4E16CF5018682BD200658FE0 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,24 +160,6 @@
 			productReference = 4E16CF2518682BD200658FE0 /* LocationMapper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E16CF4518682BD200658FE0 /* LocationMapperTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E16CF5A18682BD200658FE0 /* Build configuration list for PBXNativeTarget "LocationMapperTests" */;
-			buildPhases = (
-				4E16CF4218682BD200658FE0 /* Sources */,
-				4E16CF4318682BD200658FE0 /* Frameworks */,
-				4E16CF4418682BD200658FE0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4E16CF4C18682BD200658FE0 /* PBXTargetDependency */,
-			);
-			name = LocationMapperTests;
-			productName = LocationMapperTests;
-			productReference = 4E16CF4618682BD200658FE0 /* LocationMapperTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,8 +170,12 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Eric Ito";
 				TargetAttributes = {
-					4E16CF4518682BD200658FE0 = {
-						TestTargetID = 4E16CF2418682BD200658FE0;
+					4E16CF2418682BD200658FE0 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -219,7 +193,6 @@
 			projectRoot = "";
 			targets = (
 				4E16CF2418682BD200658FE0 /* LocationMapper */,
-				4E16CF4518682BD200658FE0 /* LocationMapperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,14 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E16CF4418682BD200658FE0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E16CF5218682BD200658FE0 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -251,28 +216,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E16CF3918682BD200658FE0 /* LMPAppDelegate.m in Sources */,
+				4E16CF6A186832A800658FE0 /* FMDatabasePool.m in Sources */,
 				4E16CF3518682BD200658FE0 /* main.m in Sources */,
+				4E16CF6B186832A800658FE0 /* FMDatabaseQueue.m in Sources */,
 				4E16CF3F18682BD200658FE0 /* LMPViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E16CF4218682BD200658FE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E16CF5418682BD200658FE0 /* LocationMapperTests.m in Sources */,
+				4E16CF68186832A800658FE0 /* FMDatabase.m in Sources */,
+				4E16CF6C186832A800658FE0 /* FMResultSet.m in Sources */,
+				4E16CF69186832A800658FE0 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4E16CF4C18682BD200658FE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4E16CF2418682BD200658FE0 /* LocationMapper */;
-			targetProxy = 4E16CF4B18682BD200658FE0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E16CF3118682BD200658FE0 /* InfoPlist.strings */ = {
@@ -289,14 +243,6 @@
 				4E16CF3B18682BD200658FE0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4E16CF5018682BD200658FE0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E16CF5118682BD200658FE0 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -400,48 +346,6 @@
 			};
 			name = Release;
 		};
-		4E16CF5B18682BD200658FE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocationMapper.app/LocationMapper";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocationMapper/LocationMapper-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "LocationMapperTests/LocationMapperTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4E16CF5C18682BD200658FE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocationMapper.app/LocationMapper";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocationMapper/LocationMapper-Prefix.pch";
-				INFOPLIST_FILE = "LocationMapperTests/LocationMapperTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -459,14 +363,6 @@
 			buildConfigurations = (
 				4E16CF5818682BD200658FE0 /* Debug */,
 				4E16CF5918682BD200658FE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4E16CF5A18682BD200658FE0 /* Build configuration list for PBXNativeTarget "LocationMapperTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4E16CF5B18682BD200658FE0 /* Debug */,
-				4E16CF5C18682BD200658FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

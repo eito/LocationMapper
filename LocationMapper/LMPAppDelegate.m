@@ -8,11 +8,19 @@
 
 #import "LMPAppDelegate.h"
 
+#define GREEN   [UIColor colorWithRed:118/255.0 green:198/255.0 blue:59/255.0 alpha:1.0]
+#define BLUE    [UIColor colorWithRed:90/255.0 green:200/255.0 blue:250/255.0 alpha:1.0]
+#define ORANGE  [UIColor colorWithRed:1.0 green:161/255.0 blue:0.0 alpha:1.0]
+
 @implementation LMPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarTintColor:ORANGE];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    
     return YES;
 }
 							
