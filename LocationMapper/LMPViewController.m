@@ -21,6 +21,7 @@
 @interface LMPViewController ()<UITableViewDataSource, UITableViewDelegate, CLLocationManagerDelegate>
 {
     BOOL _deferringUpdates;
+    BOOL _collecting;
 }
 
 @property (nonatomic, strong) CLLocationManager *locationManager;
@@ -32,6 +33,8 @@
 @property (nonatomic, strong) NSString *documentsPath;
 @property (nonatomic, strong) FMDatabase *database;
 @property (nonatomic, strong) FMDatabaseQueue *databaseQueue;
+
+@property (nonatomic, strong) NSNumberFormatter *numberFormatter;
 @end
 
 @implementation LMPViewController
@@ -43,8 +46,10 @@
     
     self.navigationItem.title = @"Location Mapper";
     
-    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithTitle:@"Dump" style:UIBarButtonItemStylePlain target:self action:@selector(dumpLocations)];
+    UIBarButtonItem *gpsBBI = [[UIBarButtonItem alloc] initWithTitle:@"Start" style:UIBarButtonItemStylePlain target:self action:@selector(toggleGPS)];
+    self.navigationItem.leftBarButtonItem = gpsBBI;
     
+    UIBarButtonItem *bbi = [[UIBarButtonItem alloc] initWithTitle:@"Dump" style:UIBarButtonItemStylePlain target:self action:@selector(dumpLocations)];
     self.navigationItem.rightBarButtonItem = bbi;
     
     self.inMemoryLocations = [NSMutableArray array];
@@ -86,14 +91,26 @@
 
 #pragma mark Internal
 
+-(void)toggleGPS {
+    UIBarButtonItem *bbi = self.navigationItem.leftBarButtonItem;
+    if (!_collecting) {
+        bbi.title = @"Stop";
+        [_locationManager startUpdatingLocation];
+    }
+    else {
+        bbi.title = @"Start";
+        [_locationManager stopUpdatingLocation];
+    }
+    _collecting = !_collecting;
+}
+
 -(void)setupLocation {
     _locationManager = [[CLLocationManager alloc] init];
-    _locationManager.activityType = CLActivityTypeOther;
+    _locationManager.activityType = CLActivityTypeFitness;
     _locationManager.delegate = self;
     _locationManager.desiredAccuracy =  kCLLocationAccuracyBest;
     _locationManager.distanceFilter = kCLDistanceFilterNone;
     _locationManager.pausesLocationUpdatesAutomatically = NO;
-    [_locationManager startUpdatingLocation];
 }
 
 -(void)setupDatabase {
@@ -131,6 +148,14 @@
 
 #pragma mark Lazy Loading
 
+-(NSNumberFormatter *)numberFormatter {
+    if (!_numberFormatter) {
+        _numberFormatter = [[NSNumberFormatter alloc] init];
+        _numberFormatter.numberStyle = NSNumberFormatterDecimalStyle;
+    }
+    return _numberFormatter;
+}
+
 -(NSString *)documentsPath {
     if (!_documentsPath) {
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -155,10 +180,10 @@
     cell.textLabel.text = @"Points";
     
     if (indexPath.section == 0) {
-        cell.detailTextLabel.text = [NSString stringWithFormat:@"%d points", self.inMemoryLocations.count];
+        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ points", [self.numberFormatter stringFromNumber:@(self.inMemoryLocations.count)]];
     }
     else {
-        cell.detailTextLabel.text = [NSString stringWithFormat:@"%lld points", self.databasePointCount];
+        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ points", [self.numberFormatter stringFromNumber:@(self.databasePointCount)]];
     }
     
     return cell;
@@ -202,7 +227,7 @@
 -(void)locationManager:(CLLocationManager *)manager didFinishDeferredUpdatesWithError:(NSError *)error {
     NSLog(@"Finished deferred updated: %@", error);
     UILocalNotification *ln = [[UILocalNotification alloc] init];
-    ln.alertBody = @"Finished deferred updates";
+    ln.alertBody = [NSString stringWithFormat:@"Finished deferred updates: %@", error];
     ln.fireDate = [NSDate dateWithTimeIntervalSinceNow:1.0];
     [[UIApplication sharedApplication] scheduleLocalNotification:ln];
     _deferringUpdates = NO;
