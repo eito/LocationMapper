@@ -7,6 +7,8 @@
 //
 
 #import "LMPViewController.h"
+#import "LMPDataPoint.h"
+
 #import "FMDatabase.h"
 #import "FMDatabaseAdditions.h"
 #import "FMResultSet.h"
@@ -22,6 +24,9 @@
 {
     BOOL _deferringUpdates;
     BOOL _collecting;
+    NSMutableArray *_points;
+    CLLocation *_lastLocation;
+    CLCircularRegion *_region;
 }
 
 @property (nonatomic, strong) CLLocationManager *locationManager;
@@ -72,16 +77,9 @@
             });
         }
     }];
-//    self.database = [FMDatabase databaseWithPath:path];
-//    [self.database open];
-//    [self setupDatabase];
     
     [self setupLocation];
 }
-
-//-(void)viewWillAppear:(BOOL)animated {
-//    [super viewWillAppear:animated];
-//}
 
 - (void)didReceiveMemoryWarning
 {
@@ -91,17 +89,40 @@
 
 #pragma mark Internal
 
+//
+// this is called when user explicitly clicks start/stop
 -(void)toggleGPS {
-    UIBarButtonItem *bbi = self.navigationItem.leftBarButtonItem;
     if (!_collecting) {
-        bbi.title = @"Stop";
-        [_locationManager startUpdatingLocation];
+        //
+        // if we were monitoring a region when the user clicked "start"
+        // we need to stop monitoring and just restart location updates
+        if (_region) {
+            [self.locationManager stopMonitoringForRegion:_region];
+            _region = nil;
+        }
+        [self startGPS];
     }
     else {
-        bbi.title = @"Start";
-        [_locationManager stopUpdatingLocation];
+        [self stopGPS];
     }
     _collecting = !_collecting;
+}
+
+//
+// this is called when the user leaves a region and when the
+// user clicks "start"
+-(void)startGPS {
+    UIBarButtonItem *bbi = self.navigationItem.leftBarButtonItem;
+    bbi.title = @"Stop";
+    [_locationManager startUpdatingLocation];
+}
+
+//
+// called when user clicks "stop"
+-(void)stopGPS {
+    UIBarButtonItem *bbi = self.navigationItem.leftBarButtonItem;
+    bbi.title = @"Start";
+    [_locationManager stopUpdatingLocation];
 }
 
 -(void)setupLocation {
@@ -110,7 +131,7 @@
     _locationManager.delegate = self;
     _locationManager.desiredAccuracy =  kCLLocationAccuracyBest;
     _locationManager.distanceFilter = kCLDistanceFilterNone;
-    _locationManager.pausesLocationUpdatesAutomatically = NO;
+    _locationManager.pausesLocationUpdatesAutomatically = YES;
 }
 
 -(void)setupDatabase {
@@ -180,9 +201,17 @@
     cell.textLabel.text = @"Points";
     
     if (indexPath.section == 0) {
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.userInteractionEnabled = NO;
         cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ points", [self.numberFormatter stringFromNumber:@(self.inMemoryLocations.count)]];
     }
     else {
+        cell.selectionStyle = UITableViewCellSelectionStyleGray;
+        
+        // uncomment to test querying points from database on click
+        //cell.userInteractionEnabled = YES;
+        cell.userInteractionEnabled = NO;
+        
         cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ points", [self.numberFormatter stringFromNumber:@(self.databasePointCount)]];
     }
     
@@ -204,10 +233,107 @@
 
 #pragma mark UITableViewDelegate
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 1 && !_points) {
+        _points = [NSMutableArray array];
+        
+        __weak NSMutableArray *weakPoints = _points;
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+            [self.databaseQueue inDatabase:^(FMDatabase *db) {
+                double start = CACurrentMediaTime();
+                NSLog(@"Start...%f", start);
+                FMResultSet *resultSet = [db executeQuery:@"select * from points"];
+                while ([resultSet next]) {
+                    NSDate * timestamp = [NSDate dateWithTimeIntervalSince1970:[resultSet doubleForColumn:@"timestamp"]/1000];
+                    LMPDataPoint *dp = [LMPDataPoint pointWithLatitude:[resultSet doubleForColumn:@"lat"]
+                                                             longitude:[resultSet doubleForColumn:@"lng"]
+                                                             timestamp:timestamp];
+                    [weakPoints addObject:dp];
+                }
+                double end = CACurrentMediaTime();
+                NSLog(@"end...%f", end);
+                NSLog(@"elapsed...%f", end - start);
+            }];
+        });
+    }
+    else if (indexPath.section == 1) {
+        
+        dispatch_sync(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+            __block double oldest1 = [[NSDate date] timeIntervalSince1970];
+            __block double youngest1 = 0;
+            
+            double start = CACurrentMediaTime();
+            for (LMPDataPoint *dp in _points) {
+                double d = [dp.timestamp timeIntervalSince1970];
+                if (d < oldest1) {
+                    oldest1 = d;
+                }
+                if (d > youngest1) {
+                    youngest1 = d;
+                }
+            }
+            double end = CACurrentMediaTime();
+            NSLog(@"enumerate - for/in - %f", end - start);
+            NSLog(@"time diff = %f", youngest1 - oldest1);
+            
+        });
+        
+        dispatch_sync(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+            __block double oldest2 = [[NSDate date] timeIntervalSince1970];
+            __block double youngest2 = 0;
+            double start = CACurrentMediaTime();
+            [_points enumerateObjectsUsingBlock:^(LMPDataPoint *dp, NSUInteger idx, BOOL *stop) {
+                double d = [dp.timestamp timeIntervalSince1970];
+                if (d < oldest2) {
+                    oldest2 = d;
+                }
+                if (d > youngest2) {
+                    youngest2 = d;
+                }
+            }];
+            double end = CACurrentMediaTime();
+            NSLog(@"enumerate using block - %f", end - start);
+            NSLog(@"time diff = %f", youngest2 - oldest2);
+        });
+
+        dispatch_sync(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+            __block double oldest3 = [[NSDate date] timeIntervalSince1970];
+            __block double youngest3 = 0;
+            double start = CACurrentMediaTime();
+            [_points enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(LMPDataPoint *dp, NSUInteger idx, BOOL *stop) {
+                double d = [dp.timestamp timeIntervalSince1970];
+                if (d < oldest3) {
+                    oldest3 = d;
+                }
+                if (d > youngest3) {
+                    youngest3 = d;
+                }
+            }];
+            double end = CACurrentMediaTime();
+            NSLog(@"enumerate using block (concurrent) - %f", end - start);
+            NSLog(@"time diff = %f", youngest3 - oldest3);
+        });
+    }
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 #pragma mark CLLocationManagerDelegate
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
-//    NSLog(@"Updated with %d locations %@", locations.count, locations);
+    
+    //
+    // keep track of our last location for region monitoring purposes
+    _lastLocation = [locations lastObject];
+    
+    if (locations.count > 2) {
+        UILocalNotification *ln = [[UILocalNotification alloc] init];
+        ln.alertBody = [NSString stringWithFormat:@"%lu deferred updates", (unsigned long)locations.count];
+        ln.hasAction = NO;
+        ln.fireDate = [NSDate dateWithTimeIntervalSinceNow:1.0];
+        [[UIApplication sharedApplication] scheduleLocalNotification:ln];
+    }
 
     [self.inMemoryLocations addObjectsFromArray:locations];
 
@@ -229,7 +355,62 @@
     UILocalNotification *ln = [[UILocalNotification alloc] init];
     ln.alertBody = [NSString stringWithFormat:@"Finished deferred updates: %@", error];
     ln.fireDate = [NSDate dateWithTimeIntervalSinceNow:1.0];
+    ln.hasAction = NO;
     [[UIApplication sharedApplication] scheduleLocalNotification:ln];
     _deferringUpdates = NO;
 }
+
+-(void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region {
+    [self postLocalNotificationWithMessage:@"Left region! -- stopped monitoring, restarting location"];
+    [manager stopMonitoringForRegion:region];
+    _region = nil;
+    [self startGPS];
+}
+
+-(void)locationManager:(CLLocationManager *)manager didStartMonitoringForRegion:(CLRegion *)region {
+    [self postLocalNotificationWithMessage:@"Started monitoring region"];
+}
+
+-(void)locationManager:(CLLocationManager *)manager monitoringDidFailForRegion:(CLRegion *)region withError:(NSError *)error {
+    [self postLocalNotificationWithMessage:[NSString stringWithFormat:@"Region monitoring failed: %@", error]];
+}
+
+//
+// when location updates are paused -- monitor the current region so we can
+// restart location updates when we begin moving
+-(void)locationManagerDidPauseLocationUpdates:(CLLocationManager *)manager {
+
+    [self postLocalNotificationWithMessage:@"Pausing location updates..."];
+    
+    //
+    // create a region around our lastLocation
+    NSString *regionIdentifier = [NSString stringWithFormat:@"%@.region", [[NSBundle mainBundle] bundleIdentifier]];
+    _region = [[CLCircularRegion alloc] initWithCenter:_lastLocation.coordinate
+                                                radius:50
+                                            identifier:regionIdentifier];
+    
+    //
+    // start monitoring this region
+    [self.locationManager startMonitoringForRegion:_region];
+    
+    //
+    // notify user if this coordinate isn't in the region -- may have poor GPS signal in this case
+    if (![_region containsCoordinate:_lastLocation.coordinate]) {
+        [self postLocalNotificationWithMessage:@"Region doesn't contain last coordinate"];
+        [self.locationManager stopMonitoringForRegion:_region];
+        _region = nil;
+    }
+}
+
+#pragma mark Helper methods
+
+-(void)postLocalNotificationWithMessage:(NSString*)message {
+    UILocalNotification *ln = [[UILocalNotification alloc] init];
+    ln.alertBody = message;
+    ln.fireDate = [NSDate dateWithTimeIntervalSinceNow:1.0];
+    ln.hasAction = NO;
+    [[UIApplication sharedApplication] scheduleLocalNotification:ln];
+    NSLog(@"Message: %@", message);
+}
+
 @end

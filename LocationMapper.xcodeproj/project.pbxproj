@@ -22,6 +22,7 @@
 		4E16CF6B186832A800658FE0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF65186832A800658FE0 /* FMDatabaseQueue.m */; };
 		4E16CF6C186832A800658FE0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF67186832A800658FE0 /* FMResultSet.m */; };
 		4E16CF6E186832BC00658FE0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF6D186832BC00658FE0 /* libsqlite3.dylib */; };
+		4E16CFBD186D6E0800658FE0 /* LMPDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CFBC186D6E0800658FE0 /* LMPDataPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		4E16CF66186832A800658FE0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/src/FMResultSet.h; sourceTree = SOURCE_ROOT; };
 		4E16CF67186832A800658FE0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/src/FMResultSet.m; sourceTree = SOURCE_ROOT; };
 		4E16CF6D186832BC00658FE0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4E16CFBB186D6E0800658FE0 /* LMPDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPDataPoint.h; sourceTree = "<group>"; };
+		4E16CFBC186D6E0800658FE0 /* LMPDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPDataPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				4E16CF3A18682BD200658FE0 /* Main.storyboard */,
 				4E16CF3D18682BD200658FE0 /* LMPViewController.h */,
 				4E16CF3E18682BD200658FE0 /* LMPViewController.m */,
+				4E16CFBB186D6E0800658FE0 /* LMPDataPoint.h */,
+				4E16CFBC186D6E0800658FE0 /* LMPDataPoint.m */,
 				4E16CF4018682BD200658FE0 /* Images.xcassets */,
 				4E16CF2F18682BD200658FE0 /* Supporting Files */,
 			);
@@ -218,6 +223,7 @@
 				4E16CF3918682BD200658FE0 /* LMPAppDelegate.m in Sources */,
 				4E16CF6A186832A800658FE0 /* FMDatabasePool.m in Sources */,
 				4E16CF3518682BD200658FE0 /* main.m in Sources */,
+				4E16CFBD186D6E0800658FE0 /* LMPDataPoint.m in Sources */,
 				4E16CF6B186832A800658FE0 /* FMDatabaseQueue.m in Sources */,
 				4E16CF3F18682BD200658FE0 /* LMPViewController.m in Sources */,
 				4E16CF68186832A800658FE0 /* FMDatabase.m in Sources */,
@@ -365,6 +371,7 @@
 				4E16CF5918682BD200658FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
