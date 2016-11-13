@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0E00171D5706A8004D4787 /* Farm_San_Francisco_Pokémon_Go_GPX.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00161D5706A8004D4787 /* Farm_San_Francisco_Pokémon_Go_GPX.gpx */; };
+		4E0E00191D570C4B004D4787 /* San_Fransico_Pokemon_Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00181D570C4B004D4787 /* San_Fransico_Pokemon_Route.gpx */; };
+		4E0E001D1D5710B8004D4787 /* route201317402.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E001C1D5710B8004D4787 /* route201317402.gpx */; };
+		4E0E00411D585C12004D4787 /* burke.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00401D585C12004D4787 /* burke.gpx */; };
+		4E0E00431D58678F004D4787 /* burke_up.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00421D58678F004D4787 /* burke_up.gpx */; };
+		4E0E00451D5879D2004D4787 /* burke_bean.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00441D5879D2004D4787 /* burke_bean.gpx */; };
+		4E0E00471D587A38004D4787 /* burke_up2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00461D587A38004D4787 /* burke_up2.gpx */; };
+		4E0E00491D59BBCE004D4787 /* santa_monica.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00481D59BBCE004D4787 /* santa_monica.gpx */; };
+		4E0E004B1D5AE7EF004D4787 /* pier2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E004A1D5AE7EF004D4787 /* pier2.gpx */; };
+		4E0E004D1D5AF8A9004D4787 /* santa_monica_2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E004C1D5AF8A9004D4787 /* santa_monica_2.gpx */; };
+		4E0E004F1D5AF9CF004D4787 /* santa_monica_inward.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E004E1D5AF9CF004D4787 /* santa_monica_inward.gpx */; };
+		4E0E00511D5AFAD6004D4787 /* santa_monica_park.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00501D5AFAD6004D4787 /* santa_monica_park.gpx */; };
+		4E0E00531D5AFF44004D4787 /* santa_monica_south.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00521D5AFF44004D4787 /* santa_monica_south.gpx */; };
+		4E0E00551D5B0579004D4787 /* santa_monica_long.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00541D5B0579004D4787 /* santa_monica_long.gpx */; };
+		4E0E00571D5DB28D004D4787 /* pier3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00561D5DB28D004D4787 /* pier3.gpx */; };
+		4E0E00591D5DB7FB004D4787 /* pier4.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00581D5DB7FB004D4787 /* pier4.gpx */; };
+		4E0E005D1D6041DF004D4787 /* dragonite.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E005C1D6041DF004D4787 /* dragonite.gpx */; };
+		4E0E00891D619BFF004D4787 /* alakazam.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00881D619BFF004D4787 /* alakazam.gpx */; };
+		4E0E008D1D62EEFD004D4787 /* beedrill.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E008C1D62EEFD004D4787 /* beedrill.gpx */; };
+		4E0E008F1D62EFDE004D4787 /* dratini.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E008E1D62EFDE004D4787 /* dratini.gpx */; };
+		4E0E00911D644C1D004D4787 /* dragonair.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00901D644C1D004D4787 /* dragonair.gpx */; };
+		4E0E00931D644C6A004D4787 /* dragonair2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4E0E00921D644C6A004D4787 /* dragonair2.gpx */; };
 		4E16CF2918682BD200658FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF2818682BD200658FE0 /* Foundation.framework */; };
 		4E16CF2B18682BD200658FE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF2A18682BD200658FE0 /* CoreGraphics.framework */; };
 		4E16CF2D18682BD200658FE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF2C18682BD200658FE0 /* UIKit.framework */; };
@@ -23,9 +45,41 @@
 		4E16CF6C186832A800658FE0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CF67186832A800658FE0 /* FMResultSet.m */; };
 		4E16CF6E186832BC00658FE0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E16CF6D186832BC00658FE0 /* libsqlite3.dylib */; };
 		4E16CFBD186D6E0800658FE0 /* LMPDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E16CFBC186D6E0800658FE0 /* LMPDataPoint.m */; };
+		4EB9CFA21D727205000D7B46 /* dragonite99.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9CFA11D727205000D7B46 /* dragonite99.gpx */; };
+		4EB9CFA41D72A86A000D7B46 /* ocean_park.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9CFA31D72A86A000D7B46 /* ocean_park.gpx */; };
+		4EB9CFA61D72A8CF000D7B46 /* dragonair999.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9CFA51D72A8CF000D7B46 /* dragonair999.gpx */; };
+		4EB9CFA81D72AFE1000D7B46 /* new_dratini.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9CFA71D72AFE1000D7B46 /* new_dratini.gpx */; };
+		4ECD11591D721AB70016E156 /* dragonair5.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD11581D721AB70016E156 /* dragonair5.gpx */; };
+		4ECD115B1D721C7D0016E156 /* dragonair6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4ECD115A1D721C7D0016E156 /* dragonair6.gpx */; };
+		4EDBDE511D68D83000E23540 /* clefable.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBDE501D68D83000E23540 /* clefable.gpx */; };
+		4EDBDE531D68DDB000E23540 /* dratini2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBDE521D68DDB000E23540 /* dratini2.gpx */; };
+		4EDBDE551D68DEE000E23540 /* dratini3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBDE541D68DEE000E23540 /* dratini3.gpx */; };
+		4EDBDE571D6AED5D00E23540 /* dragonite2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBDE561D6AED5D00E23540 /* dragonite2.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E0E00161D5706A8004D4787 /* Farm_San_Francisco_Pokémon_Go_GPX.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Farm_San_Francisco_Pokémon_Go_GPX.gpx"; sourceTree = "<group>"; };
+		4E0E00181D570C4B004D4787 /* San_Fransico_Pokemon_Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = San_Fransico_Pokemon_Route.gpx; sourceTree = "<group>"; };
+		4E0E001C1D5710B8004D4787 /* route201317402.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = route201317402.gpx; sourceTree = "<group>"; };
+		4E0E00401D585C12004D4787 /* burke.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = burke.gpx; sourceTree = "<group>"; };
+		4E0E00421D58678F004D4787 /* burke_up.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = burke_up.gpx; sourceTree = "<group>"; };
+		4E0E00441D5879D2004D4787 /* burke_bean.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = burke_bean.gpx; sourceTree = "<group>"; };
+		4E0E00461D587A38004D4787 /* burke_up2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = burke_up2.gpx; sourceTree = "<group>"; };
+		4E0E00481D59BBCE004D4787 /* santa_monica.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = santa_monica.gpx; sourceTree = "<group>"; };
+		4E0E004A1D5AE7EF004D4787 /* pier2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pier2.gpx; sourceTree = "<group>"; };
+		4E0E004C1D5AF8A9004D4787 /* santa_monica_2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = santa_monica_2.gpx; sourceTree = "<group>"; };
+		4E0E004E1D5AF9CF004D4787 /* santa_monica_inward.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = santa_monica_inward.gpx; sourceTree = "<group>"; };
+		4E0E00501D5AFAD6004D4787 /* santa_monica_park.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = santa_monica_park.gpx; sourceTree = "<group>"; };
+		4E0E00521D5AFF44004D4787 /* santa_monica_south.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = santa_monica_south.gpx; sourceTree = "<group>"; };
+		4E0E00541D5B0579004D4787 /* santa_monica_long.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = santa_monica_long.gpx; sourceTree = "<group>"; };
+		4E0E00561D5DB28D004D4787 /* pier3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pier3.gpx; sourceTree = "<group>"; };
+		4E0E00581D5DB7FB004D4787 /* pier4.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pier4.gpx; sourceTree = "<group>"; };
+		4E0E005C1D6041DF004D4787 /* dragonite.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonite.gpx; sourceTree = "<group>"; };
+		4E0E00881D619BFF004D4787 /* alakazam.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = alakazam.gpx; sourceTree = "<group>"; };
+		4E0E008C1D62EEFD004D4787 /* beedrill.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = beedrill.gpx; sourceTree = "<group>"; };
+		4E0E008E1D62EFDE004D4787 /* dratini.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dratini.gpx; sourceTree = "<group>"; };
+		4E0E00901D644C1D004D4787 /* dragonair.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonair.gpx; sourceTree = "<group>"; };
+		4E0E00921D644C6A004D4787 /* dragonair2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonair2.gpx; sourceTree = "<group>"; };
 		4E16CF2518682BD200658FE0 /* LocationMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E16CF2818682BD200658FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E16CF2A18682BD200658FE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,6 +108,16 @@
 		4E16CF6D186832BC00658FE0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		4E16CFBB186D6E0800658FE0 /* LMPDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPDataPoint.h; sourceTree = "<group>"; };
 		4E16CFBC186D6E0800658FE0 /* LMPDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPDataPoint.m; sourceTree = "<group>"; };
+		4EB9CFA11D727205000D7B46 /* dragonite99.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonite99.gpx; sourceTree = "<group>"; };
+		4EB9CFA31D72A86A000D7B46 /* ocean_park.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ocean_park.gpx; sourceTree = "<group>"; };
+		4EB9CFA51D72A8CF000D7B46 /* dragonair999.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonair999.gpx; sourceTree = "<group>"; };
+		4EB9CFA71D72AFE1000D7B46 /* new_dratini.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = new_dratini.gpx; sourceTree = "<group>"; };
+		4ECD11581D721AB70016E156 /* dragonair5.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonair5.gpx; sourceTree = "<group>"; };
+		4ECD115A1D721C7D0016E156 /* dragonair6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonair6.gpx; sourceTree = "<group>"; };
+		4EDBDE501D68D83000E23540 /* clefable.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = clefable.gpx; sourceTree = "<group>"; };
+		4EDBDE521D68DDB000E23540 /* dratini2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dratini2.gpx; sourceTree = "<group>"; };
+		4EDBDE541D68DEE000E23540 /* dratini3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dratini3.gpx; sourceTree = "<group>"; };
+		4EDBDE561D6AED5D00E23540 /* dragonite2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dragonite2.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +138,38 @@
 		4E16CF1C18682BD200658FE0 = {
 			isa = PBXGroup;
 			children = (
+				4EB9CFA71D72AFE1000D7B46 /* new_dratini.gpx */,
+				4EB9CFA51D72A8CF000D7B46 /* dragonair999.gpx */,
+				4EB9CFA31D72A86A000D7B46 /* ocean_park.gpx */,
+				4EB9CFA11D727205000D7B46 /* dragonite99.gpx */,
+				4ECD115A1D721C7D0016E156 /* dragonair6.gpx */,
+				4ECD11581D721AB70016E156 /* dragonair5.gpx */,
+				4EDBDE561D6AED5D00E23540 /* dragonite2.gpx */,
+				4EDBDE541D68DEE000E23540 /* dratini3.gpx */,
+				4EDBDE521D68DDB000E23540 /* dratini2.gpx */,
+				4EDBDE501D68D83000E23540 /* clefable.gpx */,
+				4E0E00921D644C6A004D4787 /* dragonair2.gpx */,
+				4E0E00901D644C1D004D4787 /* dragonair.gpx */,
+				4E0E008E1D62EFDE004D4787 /* dratini.gpx */,
+				4E0E008C1D62EEFD004D4787 /* beedrill.gpx */,
+				4E0E00881D619BFF004D4787 /* alakazam.gpx */,
+				4E0E005C1D6041DF004D4787 /* dragonite.gpx */,
+				4E0E00581D5DB7FB004D4787 /* pier4.gpx */,
+				4E0E00561D5DB28D004D4787 /* pier3.gpx */,
+				4E0E00541D5B0579004D4787 /* santa_monica_long.gpx */,
+				4E0E00521D5AFF44004D4787 /* santa_monica_south.gpx */,
+				4E0E00501D5AFAD6004D4787 /* santa_monica_park.gpx */,
+				4E0E004E1D5AF9CF004D4787 /* santa_monica_inward.gpx */,
+				4E0E004C1D5AF8A9004D4787 /* santa_monica_2.gpx */,
+				4E0E004A1D5AE7EF004D4787 /* pier2.gpx */,
+				4E0E00481D59BBCE004D4787 /* santa_monica.gpx */,
+				4E0E00461D587A38004D4787 /* burke_up2.gpx */,
+				4E0E00441D5879D2004D4787 /* burke_bean.gpx */,
+				4E0E00421D58678F004D4787 /* burke_up.gpx */,
+				4E0E00401D585C12004D4787 /* burke.gpx */,
+				4E0E001C1D5710B8004D4787 /* route201317402.gpx */,
+				4E0E00181D570C4B004D4787 /* San_Fransico_Pokemon_Route.gpx */,
+				4E0E00161D5706A8004D4787 /* Farm_San_Francisco_Pokémon_Go_GPX.gpx */,
 				4E16CF2E18682BD200658FE0 /* LocationMapper */,
 				4E16CF2718682BD200658FE0 /* Frameworks */,
 				4E16CF2618682BD200658FE0 /* Products */,
@@ -176,6 +272,7 @@
 				ORGANIZATIONNAME = "Eric Ito";
 				TargetAttributes = {
 					4E16CF2418682BD200658FE0 = {
+						DevelopmentTeam = E9GZR66LB7;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -208,8 +305,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E16CF4118682BD200658FE0 /* Images.xcassets in Resources */,
+				4E0E00911D644C1D004D4787 /* dragonair.gpx in Resources */,
+				4E0E00451D5879D2004D4787 /* burke_bean.gpx in Resources */,
+				4EB9CFA61D72A8CF000D7B46 /* dragonair999.gpx in Resources */,
+				4E0E008D1D62EEFD004D4787 /* beedrill.gpx in Resources */,
+				4E0E00531D5AFF44004D4787 /* santa_monica_south.gpx in Resources */,
+				4E0E00171D5706A8004D4787 /* Farm_San_Francisco_Pokémon_Go_GPX.gpx in Resources */,
+				4E0E00491D59BBCE004D4787 /* santa_monica.gpx in Resources */,
+				4EDBDE511D68D83000E23540 /* clefable.gpx in Resources */,
+				4E0E00931D644C6A004D4787 /* dragonair2.gpx in Resources */,
+				4E0E00571D5DB28D004D4787 /* pier3.gpx in Resources */,
+				4EB9CFA41D72A86A000D7B46 /* ocean_park.gpx in Resources */,
+				4E0E001D1D5710B8004D4787 /* route201317402.gpx in Resources */,
+				4E0E00191D570C4B004D4787 /* San_Fransico_Pokemon_Route.gpx in Resources */,
+				4E0E00551D5B0579004D4787 /* santa_monica_long.gpx in Resources */,
+				4E0E00511D5AFAD6004D4787 /* santa_monica_park.gpx in Resources */,
+				4E0E004D1D5AF8A9004D4787 /* santa_monica_2.gpx in Resources */,
+				4E0E005D1D6041DF004D4787 /* dragonite.gpx in Resources */,
+				4E0E00471D587A38004D4787 /* burke_up2.gpx in Resources */,
+				4ECD115B1D721C7D0016E156 /* dragonair6.gpx in Resources */,
+				4EDBDE571D6AED5D00E23540 /* dragonite2.gpx in Resources */,
+				4E0E00411D585C12004D4787 /* burke.gpx in Resources */,
+				4E0E00591D5DB7FB004D4787 /* pier4.gpx in Resources */,
+				4E0E004B1D5AE7EF004D4787 /* pier2.gpx in Resources */,
 				4E16CF3318682BD200658FE0 /* InfoPlist.strings in Resources */,
+				4E0E00891D619BFF004D4787 /* alakazam.gpx in Resources */,
+				4E0E00431D58678F004D4787 /* burke_up.gpx in Resources */,
+				4EDBDE551D68DEE000E23540 /* dratini3.gpx in Resources */,
+				4EB9CFA81D72AFE1000D7B46 /* new_dratini.gpx in Resources */,
 				4E16CF3C18682BD200658FE0 /* Main.storyboard in Resources */,
+				4EB9CFA21D727205000D7B46 /* dragonite99.gpx in Resources */,
+				4E0E008F1D62EFDE004D4787 /* dratini.gpx in Resources */,
+				4ECD11591D721AB70016E156 /* dragonair5.gpx in Resources */,
+				4EDBDE531D68DDB000E23540 /* dratini2.gpx in Resources */,
+				4E0E004F1D5AF9CF004D4787 /* santa_monica_inward.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationMapper/LocationMapper-Prefix.pch";
 				INFOPLIST_FILE = "LocationMapper/LocationMapper-Info.plist";
@@ -344,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocationMapper/LocationMapper-Prefix.pch";
 				INFOPLIST_FILE = "LocationMapper/LocationMapper-Info.plist";

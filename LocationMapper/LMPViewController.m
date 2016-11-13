@@ -41,7 +41,7 @@
 
 @property (nonatomic, strong) NSNumberFormatter *numberFormatter;
 @end
-
+        
 @implementation LMPViewController
 
 - (void)viewDidLoad
@@ -131,7 +131,9 @@
     _locationManager.delegate = self;
     _locationManager.desiredAccuracy =  kCLLocationAccuracyBest;
     _locationManager.distanceFilter = kCLDistanceFilterNone;
-    _locationManager.pausesLocationUpdatesAutomatically = YES;
+//    _locationManager.pausesLocationUpdatesAutomatically = YES;
+    _locationManager.allowsBackgroundLocationUpdates = YES;
+    [_locationManager requestWhenInUseAuthorization];
 }
 
 -(void)setupDatabase {
