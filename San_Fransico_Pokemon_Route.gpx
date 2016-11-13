@@ -1,0 +1,2793 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="www.plotaroute.com" version="1.1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<desc>Route created on plotaroute.com</desc>
+</metadata>
+<rte>
+<name>San Fransico Pokemon Route</name>
+<rtept lat="37.81064" lon="-122.4766">
+<ele>0</ele>
+<name>Start near</name>
+<time>2016-08-07T00:00:00Z</time>
+<cmt>Start near 997 Marine Dr, San Francisco, CA 94129, USA</cmt>
+<desc>Start near 997 Marine Dr, San Francisco, CA 94129, USA</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81064" lon="-122.4766">
+<ele>0</ele>
+<name>Head south</name>
+<time>2016-08-07T00:00:00Z</time>
+<cmt>Head south toward Marine Dr</cmt>
+<desc>Head south toward Marine Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81051" lon="-122.47656">
+<ele>1</ele>
+<name>Continue s</name>
+<time>2016-08-07T00:00:11Z</time>
+<cmt>Continue straight onto Marine Dr</cmt>
+<desc>Continue straight onto Marine Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80932" lon="-122.47585">
+<ele>12</ele>
+<name>Head south</name>
+<time>2016-08-07T00:02:01Z</time>
+<cmt>Head southeast on Marine Dr toward Long Ave</cmt>
+<desc>Head southeast on Marine Dr toward Long Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8088" lon="-122.47212">
+<ele>11</ele>
+<name>Slight rig</name>
+<time>2016-08-07T00:06:02Z</time>
+<cmt>Slight right onto Long Ave</cmt>
+<desc>Slight right onto Long Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80851" lon="-122.4715">
+<ele>11</ele>
+<name>Head north</name>
+<time>2016-08-07T00:06:48Z</time>
+<cmt>Head northwest on Long Ave toward San Francisco Bay Trail</cmt>
+<desc>Head northwest on Long Ave toward San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8088" lon="-122.47212">
+<ele>11</ele>
+<name>Sharp righ</name>
+<time>2016-08-07T00:07:34Z</time>
+<cmt>Sharp right onto San Francisco Bay Trail</cmt>
+<desc>Sharp right onto San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80849" lon="-122.47066">
+<ele>5</ele>
+<name>Turn left</name>
+<time>2016-08-07T00:09:11Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80919" lon="-122.46964">
+<ele>0</ele>
+<name>Head north</name>
+<time>2016-08-07T00:10:59Z</time>
+<cmt>Head northwest toward San Francisco Bay Trail</cmt>
+<desc>Head northwest toward San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80849" lon="-122.47066">
+<ele>5</ele>
+<name>Turn left </name>
+<time>2016-08-07T00:12:47Z</time>
+<cmt>Turn left onto San Francisco Bay Trail</cmt>
+<desc>Turn left onto San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80832" lon="-122.47041">
+<ele>4</ele>
+<name>Turn right</name>
+<time>2016-08-07T00:13:08Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80824" lon="-122.47053">
+<ele>6</ele>
+<name>Turn left</name>
+<time>2016-08-07T00:13:18Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80806" lon="-122.47047">
+<ele>8</ele>
+<name>Head south</name>
+<time>2016-08-07T00:13:33Z</time>
+<cmt>Head south</cmt>
+<desc>Head south</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80801" lon="-122.47045">
+<ele>9</ele>
+<name>Turn left </name>
+<time>2016-08-07T00:13:37Z</time>
+<cmt>Turn left toward San Francisco Bay Trail</cmt>
+<desc>Turn left toward San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80773" lon="-122.46961">
+<ele>3</ele>
+<name>Slight rig</name>
+<time>2016-08-07T00:14:35Z</time>
+<cmt>Slight right onto San Francisco Bay Trail</cmt>
+<desc>Slight right onto San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80664" lon="-122.46887">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T00:16:15Z</time>
+<cmt>Head south on San Francisco Bay Trail toward Pearce St</cmt>
+<desc>Head south on San Francisco Bay Trail toward Pearce St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8063" lon="-122.46874">
+<ele>2</ele>
+<name>Slight lef</name>
+<time>2016-08-07T00:16:44Z</time>
+<cmt>Slight left onto Golden Gate Promenade/San Francisco Bay Trail</cmt>
+<desc>Slight left onto Golden Gate Promenade/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80477" lon="-122.46594">
+<ele>1</ele>
+<name>Turn right</name>
+<time>2016-08-07T00:20:23Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80463" lon="-122.466">
+<ele>1</ele>
+<name>Head north</name>
+<time>2016-08-07T00:20:35Z</time>
+<cmt>Head north on Golden Gate Promenade/San Francisco Bay Trail toward Golden Gate Promenade/San Francisco Bay Trail</cmt>
+<desc>Head north on Golden Gate Promenade/San Francisco Bay Trail toward Golden Gate Promenade/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80481" lon="-122.45993">
+<ele>1</ele>
+<name>Head east </name>
+<time>2016-08-07T00:27:10Z</time>
+<cmt>Head east on Golden Gate Promenade/San Francisco Bay Trail</cmt>
+<desc>Head east on Golden Gate Promenade/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80563" lon="-122.45361">
+<ele>1</ele>
+<name>Slight rig</name>
+<time>2016-08-07T00:33:56Z</time>
+<cmt>Slight right</cmt>
+<desc>Slight right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80553" lon="-122.4534">
+<ele>1</ele>
+<name>Head north</name>
+<time>2016-08-07T00:34:11Z</time>
+<cmt>Head northwest toward Golden Gate Promenade/San Francisco Bay Trail</cmt>
+<desc>Head northwest toward Golden Gate Promenade/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80563" lon="-122.45361">
+<ele>1</ele>
+<name>Turn right</name>
+<time>2016-08-07T00:34:27Z</time>
+<cmt>Turn right onto Golden Gate Promenade/San Francisco Bay Trail</cmt>
+<desc>Turn right onto Golden Gate Promenade/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80652" lon="-122.44878">
+<ele>1</ele>
+<name>Head east </name>
+<time>2016-08-07T00:39:43Z</time>
+<cmt>Head east on Golden Gate Promenade/San Francisco Bay Trail</cmt>
+<desc>Head east on Golden Gate Promenade/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80658" lon="-122.44832">
+<ele>1</ele>
+<name>Turn right</name>
+<time>2016-08-07T00:40:13Z</time>
+<cmt>Turn right toward Yacht Rd</cmt>
+<desc>Turn right toward Yacht Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80637" lon="-122.44811">
+<ele>2</ele>
+<name>Turn left </name>
+<time>2016-08-07T00:40:36Z</time>
+<cmt>Turn left onto Yacht Rd</cmt>
+<desc>Turn left onto Yacht Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80658" lon="-122.44741">
+<ele>3</ele>
+<name>Slight lef</name>
+<time>2016-08-07T00:41:24Z</time>
+<cmt>Slight left to stay on Yacht Rd</cmt>
+<desc>Slight left to stay on Yacht Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80667" lon="-122.44723">
+<ele>3</ele>
+<name>Slight rig</name>
+<time>2016-08-07T00:41:39Z</time>
+<cmt>Slight right to stay on Yacht Rd</cmt>
+<desc>Slight right to stay on Yacht Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80756" lon="-122.44398">
+<ele>0</ele>
+<name>Head north</name>
+<time>2016-08-07T00:45:17Z</time>
+<cmt>Head northeast on Yacht Rd</cmt>
+<desc>Head northeast on Yacht Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80842" lon="-122.44035">
+<ele>0</ele>
+<name>Head south</name>
+<time>2016-08-07T00:49:21Z</time>
+<cmt>Head southwest</cmt>
+<desc>Head southwest</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80797" lon="-122.44242">
+<ele>0</ele>
+<name>Continue o</name>
+<time>2016-08-07T00:51:40Z</time>
+<cmt>Continue onto Yacht Rd</cmt>
+<desc>Continue onto Yacht Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8076" lon="-122.44388">
+<ele>0</ele>
+<name>Keep left </name>
+<time>2016-08-07T00:53:17Z</time>
+<cmt>Keep left to stay on Yacht Rd</cmt>
+<desc>Keep left to stay on Yacht Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80652" lon="-122.44762">
+<ele>2</ele>
+<name>Turn left </name>
+<time>2016-08-07T00:57:32Z</time>
+<cmt>Turn left onto San Francisco Bay Trail</cmt>
+<desc>Turn left onto San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80618" lon="-122.44756">
+<ele>2</ele>
+<name>Head south</name>
+<time>2016-08-07T00:57:59Z</time>
+<cmt>Head south on San Francisco Bay Trail</cmt>
+<desc>Head south on San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80527" lon="-122.44738">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T00:59:13Z</time>
+<cmt>Turn left to stay on San Francisco Bay Trail</cmt>
+<desc>Turn left to stay on San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80528" lon="-122.44725">
+<ele>4</ele>
+<name>Take the c</name>
+<time>2016-08-07T00:59:21Z</time>
+<cmt>Take the crosswalk</cmt>
+<desc>Take the crosswalk</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80514" lon="-122.44753">
+<ele>4</ele>
+<name>Head east </name>
+<time>2016-08-07T00:59:49Z</time>
+<cmt>Head east on Marina Blvd toward Baker St</cmt>
+<desc>Head east on Marina Blvd toward Baker St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80574" lon="-122.44285">
+<ele>4</ele>
+<name>Head east </name>
+<time>2016-08-07T01:04:49Z</time>
+<cmt>Head east on Marina Blvd toward Scott St</cmt>
+<desc>Head east on Marina Blvd toward Scott St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80582" lon="-122.44223">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:05:29Z</time>
+<cmt>Turn left onto Scott St</cmt>
+<desc>Turn left onto Scott St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80658" lon="-122.44216">
+<ele>2</ele>
+<name>Continue o</name>
+<time>2016-08-07T01:06:41Z</time>
+<cmt>Continue onto Marina Green Dr</cmt>
+<desc>Continue onto Marina Green Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80675" lon="-122.44086">
+<ele>0</ele>
+<name>Head east </name>
+<time>2016-08-07T01:08:04Z</time>
+<cmt>Head east on Marina Green Dr</cmt>
+<desc>Head east on Marina Green Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80735" lon="-122.43613">
+<ele>0</ele>
+<name>Head east </name>
+<time>2016-08-07T01:13:07Z</time>
+<cmt>Head east on Marina Green Dr</cmt>
+<desc>Head east on Marina Green Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80669" lon="-122.43588">
+<ele>1</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:14:11Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80682" lon="-122.43441">
+<ele>1</ele>
+<name>Head south</name>
+<time>2016-08-07T01:15:46Z</time>
+<cmt>Head south</cmt>
+<desc>Head south</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80538" lon="-122.43367">
+<ele>4</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:18:03Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80527" lon="-122.4337">
+<ele>4</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:18:12Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80537" lon="-122.433">
+<ele>3</ele>
+<name>Head east</name>
+<time>2016-08-07T01:18:57Z</time>
+<cmt>Head east</cmt>
+<desc>Head east</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80539" lon="-122.4327">
+<ele>4</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:19:16Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80553" lon="-122.43256">
+<ele>3</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:19:31Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80572" lon="-122.43183">
+<ele>5</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:20:28Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8057" lon="-122.4317">
+<ele>6</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:20:36Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80608" lon="-122.43104">
+<ele>9</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:21:28Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80758" lon="-122.43139">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T01:23:30Z</time>
+<cmt>Head south</cmt>
+<desc>Head south</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80721" lon="-122.43129">
+<ele>4</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:24:00Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80738" lon="-122.43001">
+<ele>7</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:25:23Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8076" lon="-122.43005">
+<ele>5</ele>
+<name>Head south</name>
+<time>2016-08-07T01:25:41Z</time>
+<cmt>Head south</cmt>
+<desc>Head south</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80738" lon="-122.43001">
+<ele>7</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:25:58Z</time>
+<cmt>Turn left toward Funston Rd</cmt>
+<desc>Turn left toward Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80739" lon="-122.42991">
+<ele>9</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:26:05Z</time>
+<cmt>Turn right toward Funston Rd</cmt>
+<desc>Turn right toward Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80641" lon="-122.43039">
+<ele>13</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:27:33Z</time>
+<cmt>Turn left toward Funston Rd</cmt>
+<desc>Turn left toward Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80627" lon="-122.42994">
+<ele>18</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:28:11Z</time>
+<cmt>Turn left toward Funston Rd</cmt>
+<desc>Turn left toward Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80652" lon="-122.42968">
+<ele>23</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:28:37Z</time>
+<cmt>Turn right toward Funston Rd</cmt>
+<desc>Turn right toward Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80629" lon="-122.42947">
+<ele>27</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:28:59Z</time>
+<cmt>Turn left toward Funston Rd</cmt>
+<desc>Turn left toward Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80692" lon="-122.42886">
+<ele>30</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:30:06Z</time>
+<cmt>Turn right onto Funston Rd</cmt>
+<desc>Turn right onto Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80695" lon="-122.42864">
+<ele>30</ele>
+<name>Head west </name>
+<time>2016-08-07T01:30:21Z</time>
+<cmt>Head west on Funston Rd</cmt>
+<desc>Head west on Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80692" lon="-122.42886">
+<ele>30</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:30:36Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80652" lon="-122.42968">
+<ele>23</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:32:06Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80627" lon="-122.42994">
+<ele>18</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:32:32Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80641" lon="-122.43039">
+<ele>13</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:33:10Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80626" lon="-122.43069">
+<ele>10</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:33:32Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80651" lon="-122.43073">
+<ele>8</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:33:52Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80636" lon="-122.43195">
+<ele>4</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:35:11Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80661" lon="-122.432">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T01:35:31Z</time>
+<cmt>Head south</cmt>
+<desc>Head south</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80636" lon="-122.43195">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:35:51Z</time>
+<cmt>Turn left toward Fort Mason</cmt>
+<desc>Turn left toward Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80651" lon="-122.43073">
+<ele>8</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:37:09Z</time>
+<cmt>Turn right toward Fort Mason</cmt>
+<desc>Turn right toward Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80626" lon="-122.43069">
+<ele>10</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:37:30Z</time>
+<cmt>Turn left toward Fort Mason</cmt>
+<desc>Turn left toward Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80641" lon="-122.43039">
+<ele>13</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:37:52Z</time>
+<cmt>Turn right toward Fort Mason</cmt>
+<desc>Turn right toward Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80627" lon="-122.42994">
+<ele>18</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:38:30Z</time>
+<cmt>Turn left toward Fort Mason</cmt>
+<desc>Turn left toward Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80733" lon="-122.42929">
+<ele>21</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:40:09Z</time>
+<cmt>Turn right toward Fort Mason</cmt>
+<desc>Turn right toward Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8073" lon="-122.42784">
+<ele>24</ele>
+<name>Continue o</name>
+<time>2016-08-07T01:41:44Z</time>
+<cmt>Continue onto Fort Mason</cmt>
+<desc>Continue onto Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80726" lon="-122.42778">
+<ele>24</ele>
+<name>Head south</name>
+<time>2016-08-07T01:41:51Z</time>
+<cmt>Head south on Fort Mason toward Funston Rd</cmt>
+<desc>Head south on Fort Mason toward Funston Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80708" lon="-122.42772">
+<ele>27</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:42:06Z</time>
+<cmt>Turn left to stay on Fort Mason</cmt>
+<desc>Turn left to stay on Fort Mason</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80701" lon="-122.42756">
+<ele>28</ele>
+<name>Sharp left</name>
+<time>2016-08-07T01:42:18Z</time>
+<cmt>Sharp left toward Van Ness Ave</cmt>
+<desc>Sharp left toward Van Ness Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80738" lon="-122.42768">
+<ele>22</ele>
+<name>Slight rig</name>
+<time>2016-08-07T01:42:48Z</time>
+<cmt>Slight right toward Van Ness Ave</cmt>
+<desc>Slight right toward Van Ness Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80781" lon="-122.42763">
+<ele>12</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:43:30Z</time>
+<cmt>Turn right toward Van Ness Ave</cmt>
+<desc>Turn right toward Van Ness Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8075" lon="-122.42695">
+<ele>11</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:44:25Z</time>
+<cmt>Turn left toward Van Ness Ave</cmt>
+<desc>Turn left toward Van Ness Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80771" lon="-122.42653">
+<ele>5</ele>
+<name>Turn left </name>
+<time>2016-08-07T01:45:05Z</time>
+<cmt>Turn left onto Van Ness Ave</cmt>
+<desc>Turn left onto Van Ness Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8081" lon="-122.42662">
+<ele>2</ele>
+<name>Continue o</name>
+<time>2016-08-07T01:45:36Z</time>
+<cmt>Continue onto Aquatic Park Pier</cmt>
+<desc>Continue onto Aquatic Park Pier</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81055" lon="-122.42574">
+<ele>0</ele>
+<name>Head south</name>
+<time>2016-08-07T01:49:15Z</time>
+<cmt>Head southwest on Aquatic Park Pier</cmt>
+<desc>Head southwest on Aquatic Park Pier</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8081" lon="-122.42662">
+<ele>2</ele>
+<name>Continue o</name>
+<time>2016-08-07T01:52:54Z</time>
+<cmt>Continue onto Van Ness Ave</cmt>
+<desc>Continue onto Van Ness Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80693" lon="-122.42603">
+<ele>12</ele>
+<name>Head south</name>
+<time>2016-08-07T01:54:37Z</time>
+<cmt>Head southeast on Van Ness Ave</cmt>
+<desc>Head southeast on Van Ness Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80688" lon="-122.42598">
+<ele>13</ele>
+<name>Turn left</name>
+<time>2016-08-07T01:54:42Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80672" lon="-122.42351">
+<ele>7</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:57:25Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80665" lon="-122.42345">
+<ele>8</ele>
+<name>Head north</name>
+<time>2016-08-07T01:57:32Z</time>
+<cmt>Head northwest</cmt>
+<desc>Head northwest</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80672" lon="-122.42351">
+<ele>7</ele>
+<name>Turn right</name>
+<time>2016-08-07T01:57:38Z</time>
+<cmt>Turn right onto Jefferson St</cmt>
+<desc>Turn right onto Jefferson St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80759" lon="-122.42077">
+<ele>6</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:00:50Z</time>
+<cmt>Turn left onto Hyde St</cmt>
+<desc>Turn left onto Hyde St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8086" lon="-122.42104">
+<ele>1</ele>
+<name>Head north</name>
+<time>2016-08-07T02:02:13Z</time>
+<cmt>Head north on Hyde St</cmt>
+<desc>Head north on Hyde St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8088" lon="-122.42108">
+<ele>1</ele>
+<name>Take the a</name>
+<time>2016-08-07T02:02:29Z</time>
+<cmt>Take the access path</cmt>
+<desc>Take the access path</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80967" lon="-122.42211">
+<ele>0</ele>
+<name>Head south</name>
+<time>2016-08-07T02:04:06Z</time>
+<cmt>Head southeast on Hyde Street Pier toward Tonquin St</cmt>
+<desc>Head southeast on Hyde Street Pier toward Tonquin St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80759" lon="-122.42077">
+<ele>6</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:07:22Z</time>
+<cmt>Turn left onto Jefferson St</cmt>
+<desc>Turn left onto Jefferson St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80785" lon="-122.41863">
+<ele>5</ele>
+<name>Head east </name>
+<time>2016-08-07T02:09:39Z</time>
+<cmt>Head east on Jefferson St toward Al Scoma Way</cmt>
+<desc>Head east on Jefferson St toward Al Scoma Way</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80797" lon="-122.41772">
+<ele>5</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:10:37Z</time>
+<cmt>Turn left onto Al Scoma Way</cmt>
+<desc>Turn left onto Al Scoma Way</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80903" lon="-122.41829">
+<ele>0</ele>
+<name>Head east </name>
+<time>2016-08-07T02:12:23Z</time>
+<cmt>Head east on Al Scoma Way toward Jefferson St</cmt>
+<desc>Head east on Al Scoma Way toward Jefferson St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80797" lon="-122.41772">
+<ele>5</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:14:09Z</time>
+<cmt>Turn left onto Jefferson St</cmt>
+<desc>Turn left onto Jefferson St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80824" lon="-122.41566">
+<ele>5</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:16:22Z</time>
+<cmt>Turn left toward The Embarcadero</cmt>
+<desc>Turn left toward The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80897" lon="-122.41577">
+<ele>3</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:17:22Z</time>
+<cmt>Turn left onto The Embarcadero</cmt>
+<desc>Turn left onto The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80898" lon="-122.41585">
+<ele>3</ele>
+<name>Turn right</name>
+<time>2016-08-07T02:17:28Z</time>
+<cmt>Turn right to stay on The Embarcadero</cmt>
+<desc>Turn right to stay on The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80919" lon="-122.41709">
+<ele>2</ele>
+<name>Head east </name>
+<time>2016-08-07T02:18:56Z</time>
+<cmt>Head east on The Embarcadero toward Fishermans Wharf</cmt>
+<desc>Head east on The Embarcadero toward Fishermans Wharf</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80898" lon="-122.41585">
+<ele>3</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:20:24Z</time>
+<cmt>Turn left to stay on The Embarcadero</cmt>
+<desc>Turn left to stay on The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80897" lon="-122.41577">
+<ele>3</ele>
+<name>Turn left</name>
+<time>2016-08-07T02:20:29Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.809" lon="-122.41461">
+<ele>2</ele>
+<name>Head east</name>
+<time>2016-08-07T02:22:03Z</time>
+<cmt>Head east</cmt>
+<desc>Head east</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80896" lon="-122.41307">
+<ele>2</ele>
+<name>Head east</name>
+<time>2016-08-07T02:23:42Z</time>
+<cmt>Head east</cmt>
+<desc>Head east</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80894" lon="-122.41256">
+<ele>3</ele>
+<name>Turn left</name>
+<time>2016-08-07T02:24:14Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80937" lon="-122.41185">
+<ele>2</ele>
+<name>Turn left</name>
+<time>2016-08-07T02:25:13Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81052" lon="-122.41271">
+<ele>0</ele>
+<name>Head south</name>
+<time>2016-08-07T02:27:02Z</time>
+<cmt>Head southeast</cmt>
+<desc>Head southeast</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80889" lon="-122.41152">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:29:37Z</time>
+<cmt>Turn left toward Pier 39 Concourse</cmt>
+<desc>Turn left toward Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80875" lon="-122.4105">
+<ele>3</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:30:42Z</time>
+<cmt>Turn left toward Pier 39 Concourse</cmt>
+<desc>Turn left toward Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80956" lon="-122.41052">
+<ele>2</ele>
+<name>Turn right</name>
+<time>2016-08-07T02:31:50Z</time>
+<cmt>Turn right toward Pier 39 Concourse</cmt>
+<desc>Turn right toward Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8096" lon="-122.41042">
+<ele>2</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:31:57Z</time>
+<cmt>Turn left toward Pier 39 Concourse</cmt>
+<desc>Turn left toward Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80975" lon="-122.4104">
+<ele>3</ele>
+<name>Turn right</name>
+<time>2016-08-07T02:32:12Z</time>
+<cmt>Turn right at Pier 39 Concourse</cmt>
+<desc>Turn right at Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80978" lon="-122.41031">
+<ele>3</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:32:19Z</time>
+<cmt>Turn left onto Pier 39 Concourse</cmt>
+<desc>Turn left onto Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81017" lon="-122.41048">
+<ele>3</ele>
+<name>Turn right</name>
+<time>2016-08-07T02:32:52Z</time>
+<cmt>Turn right to stay on Pier 39 Concourse</cmt>
+<desc>Turn right to stay on Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81054" lon="-122.41062">
+<ele>4</ele>
+<name>Head south</name>
+<time>2016-08-07T02:33:32Z</time>
+<cmt>Head southeast on Pier 39 Concourse</cmt>
+<desc>Head southeast on Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81017" lon="-122.41048">
+<ele>3</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:34:12Z</time>
+<cmt>Turn left to stay on Pier 39 Concourse</cmt>
+<desc>Turn left to stay on Pier 39 Concourse</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80851" lon="-122.41014">
+<ele>5</ele>
+<name>Turn left</name>
+<time>2016-08-07T02:36:32Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80837" lon="-122.40922">
+<ele>5</ele>
+<name>Head south</name>
+<time>2016-08-07T02:37:32Z</time>
+<cmt>Head southeast</cmt>
+<desc>Head southeast</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80821" lon="-122.40892">
+<ele>5</ele>
+<name>Slight lef</name>
+<time>2016-08-07T02:37:56Z</time>
+<cmt>Slight left</cmt>
+<desc>Slight left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80832" lon="-122.40848">
+<ele>3</ele>
+<name>Slight rig</name>
+<time>2016-08-07T02:38:25Z</time>
+<cmt>Slight right</cmt>
+<desc>Slight right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8083" lon="-122.40842">
+<ele>3</ele>
+<name>Slight rig</name>
+<time>2016-08-07T02:38:31Z</time>
+<cmt>Slight right</cmt>
+<desc>Slight right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80786" lon="-122.40753">
+<ele>2</ele>
+<name>Head north</name>
+<time>2016-08-07T02:39:38Z</time>
+<cmt>Head northwest</cmt>
+<desc>Head northwest</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80796" lon="-122.40762">
+<ele>2</ele>
+<name>Head south</name>
+<time>2016-08-07T02:39:48Z</time>
+<cmt>Head southeast</cmt>
+<desc>Head southeast</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80765" lon="-122.40757">
+<ele>2</ele>
+<name>Turn left</name>
+<time>2016-08-07T02:40:17Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80728" lon="-122.40652">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T02:41:30Z</time>
+<cmt>Head southeast toward Pier 33</cmt>
+<desc>Head southeast toward Pier 33</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80607" lon="-122.40427">
+<ele>5</ele>
+<name>Head south</name>
+<time>2016-08-07T02:44:22Z</time>
+<cmt>Head southeast</cmt>
+<desc>Head southeast</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80494" lon="-122.40272">
+<ele>4</ele>
+<name>Turn left</name>
+<time>2016-08-07T02:46:36Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80506" lon="-122.40167">
+<ele>4</ele>
+<name>Head west</name>
+<time>2016-08-07T02:47:49Z</time>
+<cmt>Head west</cmt>
+<desc>Head west</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80494" lon="-122.40272">
+<ele>4</ele>
+<name>Turn left</name>
+<time>2016-08-07T02:49:01Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80313" lon="-122.4008">
+<ele>4</ele>
+<name>Head south</name>
+<time>2016-08-07T02:52:11Z</time>
+<cmt>Head southwest toward The Embarcadero</cmt>
+<desc>Head southwest toward The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80307" lon="-122.40091">
+<ele>5</ele>
+<name>Turn left </name>
+<time>2016-08-07T02:52:20Z</time>
+<cmt>Turn left onto The Embarcadero</cmt>
+<desc>Turn left onto The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80173" lon="-122.39972">
+<ele>2</ele>
+<name>Head south</name>
+<time>2016-08-07T02:54:31Z</time>
+<cmt>Head southeast on The Embarcadero toward Green St</cmt>
+<desc>Head southeast on The Embarcadero toward Green St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80019" lon="-122.39835">
+<ele>2</ele>
+<name>Head south</name>
+<time>2016-08-07T02:57:02Z</time>
+<cmt>Head southeast on The Embarcadero toward Pier 9</cmt>
+<desc>Head southeast on The Embarcadero toward Pier 9</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79835" lon="-122.39671">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T03:00:02Z</time>
+<cmt>Head southeast on The Embarcadero toward Washington St</cmt>
+<desc>Head southeast on The Embarcadero toward Washington St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79664" lon="-122.39516">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T03:02:51Z</time>
+<cmt>Head southeast on The Embarcadero</cmt>
+<desc>Head southeast on The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79603" lon="-122.39459">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:03:52Z</time>
+<cmt>Turn left toward San Francisco Bay Trail</cmt>
+<desc>Turn left toward San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79611" lon="-122.39447">
+<ele>4</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:04:02Z</time>
+<cmt>Turn right onto San Francisco Bay Trail</cmt>
+<desc>Turn right onto San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79497" lon="-122.39341">
+<ele>6</ele>
+<name>Head south</name>
+<time>2016-08-07T03:05:55Z</time>
+<cmt>Head southeast on San Francisco Bay Trail toward Pier 14</cmt>
+<desc>Head southeast on San Francisco Bay Trail toward Pier 14</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79374" lon="-122.39218">
+<ele>6</ele>
+<name>Head south</name>
+<time>2016-08-07T03:08:01Z</time>
+<cmt>Head southeast on Herb Caen Way/San Francisco Bay Trail</cmt>
+<desc>Head southeast on Herb Caen Way/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79263" lon="-122.39088">
+<ele>3</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:10:02Z</time>
+<cmt>Turn right toward The Embarcadero</cmt>
+<desc>Turn right toward The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79257" lon="-122.39097">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:10:09Z</time>
+<cmt>Turn left onto The Embarcadero</cmt>
+<desc>Turn left onto The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79252" lon="-122.39094">
+<ele>4</ele>
+<name>Head south</name>
+<time>2016-08-07T03:10:14Z</time>
+<cmt>Head southeast on The Embarcadero toward Folsom St</cmt>
+<desc>Head southeast on The Embarcadero toward Folsom St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79094" lon="-122.38993">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:12:36Z</time>
+<cmt>Turn left at Folsom St</cmt>
+<desc>Turn left at Folsom St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79103" lon="-122.38979">
+<ele>3</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:12:48Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79057" lon="-122.38934">
+<ele>5</ele>
+<name>Turn left</name>
+<time>2016-08-07T03:13:35Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79071" lon="-122.38905">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T03:13:56Z</time>
+<cmt>Head southeast toward Herb Caen Way/San Francisco Bay Trail</cmt>
+<desc>Head southeast toward Herb Caen Way/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79056" lon="-122.38884">
+<ele>3</ele>
+<name>Slight rig</name>
+<time>2016-08-07T03:14:15Z</time>
+<cmt>Slight right onto Herb Caen Way/San Francisco Bay Trail</cmt>
+<desc>Slight right onto Herb Caen Way/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78838" lon="-122.38769">
+<ele>10</ele>
+<name>Head south</name>
+<time>2016-08-07T03:17:27Z</time>
+<cmt>Head south on Herb Caen Way/San Francisco Bay Trail</cmt>
+<desc>Head south on Herb Caen Way/San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78708" lon="-122.3876">
+<ele>10</ele>
+<name>Turn left</name>
+<time>2016-08-07T03:19:12Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78708" lon="-122.38732">
+<ele>8</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:19:29Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78653" lon="-122.38737">
+<ele>9</ele>
+<name>Turn left</name>
+<time>2016-08-07T03:20:14Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78628" lon="-122.38684">
+<ele>6</ele>
+<name>Head north</name>
+<time>2016-08-07T03:21:08Z</time>
+<cmt>Head north</cmt>
+<desc>Head north</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78641" lon="-122.38686">
+<ele>6</ele>
+<name>Slight lef</name>
+<time>2016-08-07T03:21:19Z</time>
+<cmt>Slight left toward The Embarcadero</cmt>
+<desc>Slight left toward The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78653" lon="-122.38737">
+<ele>9</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:22:03Z</time>
+<cmt>Turn right toward The Embarcadero</cmt>
+<desc>Turn right toward The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78708" lon="-122.38732">
+<ele>8</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:22:47Z</time>
+<cmt>Turn left toward The Embarcadero</cmt>
+<desc>Turn left toward The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78709" lon="-122.3877">
+<ele>10</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:23:11Z</time>
+<cmt>Turn left onto The Embarcadero</cmt>
+<desc>Turn left onto The Embarcadero</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78325" lon="-122.38802">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T03:28:20Z</time>
+<cmt>Head south on The Embarcadero toward Townsend St</cmt>
+<desc>Head south on The Embarcadero toward Townsend St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78074" lon="-122.38845">
+<ele>5</ele>
+<name>Continue o</name>
+<time>2016-08-07T03:31:44Z</time>
+<cmt>Continue onto King St</cmt>
+<desc>Continue onto King St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78031" lon="-122.38881">
+<ele>7</ele>
+<name>Head north</name>
+<time>2016-08-07T03:32:26Z</time>
+<cmt>Head northeast on King St</cmt>
+<desc>Head northeast on King St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78042" lon="-122.38869">
+<ele>6</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:32:37Z</time>
+<cmt>Turn right toward San Francisco Bay Trail</cmt>
+<desc>Turn right toward San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78029" lon="-122.38817">
+<ele>2</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:33:15Z</time>
+<cmt>Turn right toward San Francisco Bay Trail</cmt>
+<desc>Turn right toward San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7796" lon="-122.38807">
+<ele>1</ele>
+<name>Slight lef</name>
+<time>2016-08-07T03:34:10Z</time>
+<cmt>Slight left onto San Francisco Bay Trail</cmt>
+<desc>Slight left onto San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77865" lon="-122.38779">
+<ele>1</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:35:32Z</time>
+<cmt>Turn left to stay on San Francisco Bay Trail</cmt>
+<desc>Turn left to stay on San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77865" lon="-122.38753">
+<ele>-2</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:35:48Z</time>
+<cmt>Turn right to stay on San Francisco Bay Trail</cmt>
+<desc>Turn right to stay on San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77834" lon="-122.3875">
+<ele>0</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:36:13Z</time>
+<cmt>Turn right to stay on San Francisco Bay Trail</cmt>
+<desc>Turn right to stay on San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77768" lon="-122.38916">
+<ele>3</ele>
+<name>Head north</name>
+<time>2016-08-07T03:38:11Z</time>
+<cmt>Head northeast on San Francisco Bay Trail</cmt>
+<desc>Head northeast on San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77773" lon="-122.38903">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T03:38:20Z</time>
+<cmt>Head southwest on San Francisco Bay Trail toward 3rd St/Lefty O'Doul Bridge</cmt>
+<desc>Head southwest on San Francisco Bay Trail toward 3rd St/Lefty O'Doul Bridge</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77714" lon="-122.39052">
+<ele>9</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:40:06Z</time>
+<cmt>Turn left onto 3rd St/Lefty O'Doul Bridge</cmt>
+<desc>Turn left onto 3rd St/Lefty O'Doul Bridge</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7758" lon="-122.38991">
+<ele>3</ele>
+<name>Head north</name>
+<time>2016-08-07T03:42:05Z</time>
+<cmt>Head north on 3rd St toward Terry A Francois Blvd</cmt>
+<desc>Head north on 3rd St toward Terry A Francois Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77628" lon="-122.38995">
+<ele>3</ele>
+<name>Turn right</name>
+<time>2016-08-07T03:42:43Z</time>
+<cmt>Turn right onto Terry A Francois Blvd</cmt>
+<desc>Turn right onto Terry A Francois Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77546" lon="-122.38763">
+<ele>2</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:46:14Z</time>
+<cmt>Turn left onto Pier 48</cmt>
+<desc>Turn left onto Pier 48</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77574" lon="-122.38588">
+<ele>1</ele>
+<name>Head west </name>
+<time>2016-08-07T03:48:07Z</time>
+<cmt>Head west on Pier 48 toward Terry A Francois Blvd</cmt>
+<desc>Head west on Pier 48 toward Terry A Francois Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77546" lon="-122.38763">
+<ele>2</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:50:01Z</time>
+<cmt>Turn left onto Terry A Francois Blvd</cmt>
+<desc>Turn left onto Terry A Francois Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77365" lon="-122.38747">
+<ele>1</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:52:26Z</time>
+<cmt>Turn left onto Pier 50</cmt>
+<desc>Turn left onto Pier 50</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77381" lon="-122.38541">
+<ele>1</ele>
+<name>Head west </name>
+<time>2016-08-07T03:54:37Z</time>
+<cmt>Head west on Pier 50 toward Terry A Francois Blvd</cmt>
+<desc>Head west on Pier 50 toward Terry A Francois Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77365" lon="-122.38747">
+<ele>1</ele>
+<name>Turn left </name>
+<time>2016-08-07T03:56:49Z</time>
+<cmt>Turn left onto Terry A Francois Blvd</cmt>
+<desc>Turn left onto Terry A Francois Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77167" lon="-122.38676">
+<ele>3</ele>
+<name>Head south</name>
+<time>2016-08-07T03:59:34Z</time>
+<cmt>Head south on Terry A Francois Blvd toward Mission Bay Boulevard North</cmt>
+<desc>Head south on Terry A Francois Blvd toward Mission Bay Boulevard North</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77121" lon="-122.38658">
+<ele>1</ele>
+<name>Turn right</name>
+<time>2016-08-07T04:00:13Z</time>
+<cmt>Turn right at San Francisco Bay Trail</cmt>
+<desc>Turn right at San Francisco Bay Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77104" lon="-122.38941">
+<ele>1</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:03:13Z</time>
+<cmt>Turn left onto 3rd St</cmt>
+<desc>Turn left onto 3rd St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77095" lon="-122.3894">
+<ele>0</ele>
+<name>Head north</name>
+<time>2016-08-07T04:03:20Z</time>
+<cmt>Head north on 3rd St toward Mission Bay Boulevard North</cmt>
+<desc>Head north on 3rd St toward Mission Bay Boulevard North</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77111" lon="-122.38941">
+<ele>1</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:03:33Z</time>
+<cmt>Turn left onto Mission Bay Boulevard North</cmt>
+<desc>Turn left onto Mission Bay Boulevard North</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.771" lon="-122.39122">
+<ele>1</ele>
+<name>Turn right</name>
+<time>2016-08-07T04:05:28Z</time>
+<cmt>Turn right onto 4th St</cmt>
+<desc>Turn right onto 4th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77342" lon="-122.3915">
+<ele>8</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:08:43Z</time>
+<cmt>Turn left onto Long Bridge Street</cmt>
+<desc>Turn left onto Long Bridge Street</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77294" lon="-122.3922">
+<ele>5</ele>
+<name>Turn right</name>
+<time>2016-08-07T04:09:42Z</time>
+<cmt>Turn right toward Channel St</cmt>
+<desc>Turn right toward Channel St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77346" lon="-122.39283">
+<ele>2</ele>
+<name>Turn right</name>
+<time>2016-08-07T04:10:40Z</time>
+<cmt>Turn right onto Channel St</cmt>
+<desc>Turn right onto Channel St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77355" lon="-122.39273">
+<ele>2</ele>
+<name>Sharp left</name>
+<time>2016-08-07T04:10:49Z</time>
+<cmt>Sharp left toward Channel St</cmt>
+<desc>Sharp left toward Channel St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77274" lon="-122.39436">
+<ele>0</ele>
+<name>Continue o</name>
+<time>2016-08-07T04:13:05Z</time>
+<cmt>Continue onto Channel St</cmt>
+<desc>Continue onto Channel St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77244" lon="-122.39477">
+<ele>1</ele>
+<name>Head north</name>
+<time>2016-08-07T04:13:40Z</time>
+<cmt>Head northeast on Channel St</cmt>
+<desc>Head northeast on Channel St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77274" lon="-122.39436">
+<ele>0</ele>
+<name>Slight lef</name>
+<time>2016-08-07T04:14:16Z</time>
+<cmt>Slight left toward 4th St</cmt>
+<desc>Slight left toward 4th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77344" lon="-122.39351">
+<ele>0</ele>
+<name>Keep left </name>
+<time>2016-08-07T04:15:35Z</time>
+<cmt>Keep left to continue toward 4th St</cmt>
+<desc>Keep left to continue toward 4th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77433" lon="-122.3923">
+<ele>2</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:17:25Z</time>
+<cmt>Turn left toward 4th St</cmt>
+<desc>Turn left toward 4th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77472" lon="-122.39207">
+<ele>3</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:18:00Z</time>
+<cmt>Turn left onto 4th St</cmt>
+<desc>Turn left onto 4th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77834" lon="-122.39655">
+<ele>7</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:24:47Z</time>
+<cmt>Turn left onto Brannan St</cmt>
+<desc>Turn left onto Brannan St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77714" lon="-122.39807">
+<ele>6</ele>
+<name>Slight rig</name>
+<time>2016-08-07T04:27:03Z</time>
+<cmt>Slight right to stay on Brannan St</cmt>
+<desc>Slight right to stay on Brannan St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77401" lon="-122.40204">
+<ele>4</ele>
+<name>Head north</name>
+<time>2016-08-07T04:33:00Z</time>
+<cmt>Head northeast on Brannan St toward Harriet St</cmt>
+<desc>Head northeast on Brannan St toward Harriet St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7744" lon="-122.4016">
+<ele>3</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:33:43Z</time>
+<cmt>Turn left onto Harriet St</cmt>
+<desc>Turn left onto Harriet St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77685" lon="-122.40463">
+<ele>4</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:38:17Z</time>
+<cmt>Turn left onto Harrison St</cmt>
+<desc>Turn left onto Harrison St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77619" lon="-122.40548">
+<ele>4</ele>
+<name>Turn right</name>
+<time>2016-08-07T04:39:33Z</time>
+<cmt>Turn right onto Sherman St</cmt>
+<desc>Turn right onto Sherman St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77698" lon="-122.4065">
+<ele>7</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:41:03Z</time>
+<cmt>Turn left onto Cleveland St</cmt>
+<desc>Turn left onto Cleveland St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77686" lon="-122.40665">
+<ele>7</ele>
+<name>Head south</name>
+<time>2016-08-07T04:41:17Z</time>
+<cmt>Head southwest on Cleveland St toward 7th St</cmt>
+<desc>Head southwest on Cleveland St toward 7th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77632" lon="-122.40732">
+<ele>7</ele>
+<name>Turn right</name>
+<time>2016-08-07T04:42:18Z</time>
+<cmt>Turn right onto 7th St</cmt>
+<desc>Turn right onto 7th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77921" lon="-122.41095">
+<ele>14</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:47:44Z</time>
+<cmt>Turn left onto Mission St</cmt>
+<desc>Turn left onto Mission St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77908" lon="-122.41112">
+<ele>13</ele>
+<name>Head north</name>
+<time>2016-08-07T04:47:59Z</time>
+<cmt>Head northeast on Mission St toward 7th St</cmt>
+<desc>Head northeast on Mission St toward 7th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77921" lon="-122.41095">
+<ele>14</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:48:14Z</time>
+<cmt>Turn left onto 7th St</cmt>
+<desc>Turn left onto 7th St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78047" lon="-122.41256">
+<ele>18</ele>
+<name>Continue o</name>
+<time>2016-08-07T04:50:38Z</time>
+<cmt>Continue onto Charles J. Brenham Pl</cmt>
+<desc>Continue onto Charles J. Brenham Pl</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.781" lon="-122.4132">
+<ele>20</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:51:36Z</time>
+<cmt>Turn left onto McAllister St</cmt>
+<desc>Turn left onto McAllister St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78047" lon="-122.41712">
+<ele>29</ele>
+<name>Turn left</name>
+<time>2016-08-07T04:55:48Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.77981" lon="-122.41739">
+<ele>20</ele>
+<name>Head north</name>
+<time>2016-08-07T04:56:52Z</time>
+<cmt>Head north</cmt>
+<desc>Head north</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78014" lon="-122.41745">
+<ele>24</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:57:18Z</time>
+<cmt>Turn left toward McAllister St</cmt>
+<desc>Turn left toward McAllister St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78007" lon="-122.41797">
+<ele>26</ele>
+<name>Turn right</name>
+<time>2016-08-07T04:57:52Z</time>
+<cmt>Turn right toward McAllister St</cmt>
+<desc>Turn right toward McAllister St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78029" lon="-122.41848">
+<ele>33</ele>
+<name>Turn left </name>
+<time>2016-08-07T04:58:35Z</time>
+<cmt>Turn left onto McAllister St</cmt>
+<desc>Turn left onto McAllister St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7797" lon="-122.42355">
+<ele>25</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:03:59Z</time>
+<cmt>Turn right onto Gough St</cmt>
+<desc>Turn right onto Gough St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78163" lon="-122.42395">
+<ele>37</ele>
+<name>Turn left</name>
+<time>2016-08-07T05:06:36Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78163" lon="-122.4243">
+<ele>37</ele>
+<name>Slight rig</name>
+<time>2016-08-07T05:06:59Z</time>
+<cmt>Slight right</cmt>
+<desc>Slight right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78182" lon="-122.4248">
+<ele>42</ele>
+<name>Head west</name>
+<time>2016-08-07T05:07:35Z</time>
+<cmt>Head west</cmt>
+<desc>Head west</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78181" lon="-122.42559">
+<ele>43</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:08:26Z</time>
+<cmt>Turn left toward Eddy St</cmt>
+<desc>Turn left toward Eddy St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78177" lon="-122.42565">
+<ele>42</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:08:31Z</time>
+<cmt>Turn right toward Eddy St</cmt>
+<desc>Turn right toward Eddy St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78191" lon="-122.426">
+<ele>44</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:08:57Z</time>
+<cmt>Turn left toward Eddy St</cmt>
+<desc>Turn left toward Eddy St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78178" lon="-122.42703">
+<ele>39</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:10:03Z</time>
+<cmt>Turn right toward Eddy St</cmt>
+<desc>Turn right toward Eddy St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78208" lon="-122.42732">
+<ele>41</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:10:36Z</time>
+<cmt>Turn left onto Eddy St</cmt>
+<desc>Turn left onto Eddy St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78164" lon="-122.43073">
+<ele>35</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:14:15Z</time>
+<cmt>Turn right onto Webster St</cmt>
+<desc>Turn right onto Webster St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78314" lon="-122.43096">
+<ele>39</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:16:16Z</time>
+<cmt>Turn left onto Byington St</cmt>
+<desc>Turn left onto Byington St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78303" lon="-122.43212">
+<ele>41</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:17:30Z</time>
+<cmt>Turn right to stay on Byington St</cmt>
+<desc>Turn right to stay on Byington St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78343" lon="-122.43221">
+<ele>43</ele>
+<name>Turn left</name>
+<time>2016-08-07T05:18:02Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78342" lon="-122.43236">
+<ele>44</ele>
+<name>Head west </name>
+<time>2016-08-07T05:18:12Z</time>
+<cmt>Head west toward Fillmore St</cmt>
+<desc>Head west toward Fillmore St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78331" lon="-122.43275">
+<ele>45</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:18:38Z</time>
+<cmt>Turn right onto Fillmore St</cmt>
+<desc>Turn right onto Fillmore St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78422" lon="-122.43292">
+<ele>45</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:19:52Z</time>
+<cmt>Turn left onto Geary Blvd</cmt>
+<desc>Turn left onto Geary Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78391" lon="-122.43557">
+<ele>42</ele>
+<name>Head west </name>
+<time>2016-08-07T05:22:42Z</time>
+<cmt>Head west on Geary Blvd toward Scott St</cmt>
+<desc>Head west on Geary Blvd toward Scott St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78364" lon="-122.43784">
+<ele>48</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:25:08Z</time>
+<cmt>Turn right onto Scott St</cmt>
+<desc>Turn right onto Scott St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7864" lon="-122.43839">
+<ele>49</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:28:52Z</time>
+<cmt>Turn left onto Bush St</cmt>
+<desc>Turn left onto Bush St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78585" lon="-122.44268">
+<ele>57</ele>
+<name>Head west </name>
+<time>2016-08-07T05:33:27Z</time>
+<cmt>Head west on Bush St toward Baker St</cmt>
+<desc>Head west on Bush St toward Baker St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78576" lon="-122.44337">
+<ele>58</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:34:11Z</time>
+<cmt>Turn right onto Baker St</cmt>
+<desc>Turn right onto Baker St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78766" lon="-122.44374">
+<ele>66</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:36:45Z</time>
+<cmt>Turn left onto California St</cmt>
+<desc>Turn left onto California St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78753" lon="-122.4448">
+<ele>70</ele>
+<name>Slight rig</name>
+<time>2016-08-07T05:37:53Z</time>
+<cmt>Slight right to stay on California St</cmt>
+<desc>Slight right to stay on California St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78714" lon="-122.44805">
+<ele>87</ele>
+<name>Head west </name>
+<time>2016-08-07T05:41:22Z</time>
+<cmt>Head west on California St toward Walnut St</cmt>
+<desc>Head west on California St toward Walnut St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78709" lon="-122.4485">
+<ele>88</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:41:51Z</time>
+<cmt>Turn right onto Walnut St</cmt>
+<desc>Turn right onto Walnut St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79062" lon="-122.4492">
+<ele>86</ele>
+<name>Turn left </name>
+<time>2016-08-07T05:46:37Z</time>
+<cmt>Turn left onto Jackson St</cmt>
+<desc>Turn left onto Jackson St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78983" lon="-122.45533">
+<ele>83</ele>
+<name>Head west </name>
+<time>2016-08-07T05:53:11Z</time>
+<cmt>Head west on Jackson St toward Maple St</cmt>
+<desc>Head west on Jackson St toward Maple St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.78931" lon="-122.45946">
+<ele>87</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:57:36Z</time>
+<cmt>Turn right onto Arguello Blvd</cmt>
+<desc>Turn right onto Arguello Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79029" lon="-122.45865">
+<ele>97</ele>
+<name>Turn right</name>
+<time>2016-08-07T05:59:24Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7903" lon="-122.45854">
+<ele>97</ele>
+<name>Turn left</name>
+<time>2016-08-07T05:59:31Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79147" lon="-122.45878">
+<ele>91</ele>
+<name>Head north</name>
+<time>2016-08-07T06:01:09Z</time>
+<cmt>Head north</cmt>
+<desc>Head north</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79206" lon="-122.4583">
+<ele>82</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:02:07Z</time>
+<cmt>Turn right toward Ecology Trail</cmt>
+<desc>Turn right toward Ecology Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79167" lon="-122.45819">
+<ele>83</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:02:42Z</time>
+<cmt>Turn left onto Ecology Trail</cmt>
+<desc>Turn left onto Ecology Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79292" lon="-122.45849">
+<ele>80</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:04:58Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79371" lon="-122.45571">
+<ele>39</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:08:33Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79353" lon="-122.45569">
+<ele>42</ele>
+<name>Head north</name>
+<time>2016-08-07T06:08:48Z</time>
+<cmt>Head north</cmt>
+<desc>Head north</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79371" lon="-122.45571">
+<ele>39</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:09:02Z</time>
+<cmt>Turn right toward MacArthur Ave</cmt>
+<desc>Turn right toward MacArthur Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79371" lon="-122.45555">
+<ele>38</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:09:13Z</time>
+<cmt>Turn left onto MacArthur Ave</cmt>
+<desc>Turn left onto MacArthur Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79657" lon="-122.45587">
+<ele>25</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:13:04Z</time>
+<cmt>Turn right to stay on MacArthur Ave</cmt>
+<desc>Turn right to stay on MacArthur Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7971" lon="-122.45455">
+<ele>22</ele>
+<name>Sharp righ</name>
+<time>2016-08-07T06:14:37Z</time>
+<cmt>Sharp right onto Portola St</cmt>
+<desc>Sharp right onto Portola St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79651" lon="-122.45482">
+<ele>23</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:15:29Z</time>
+<cmt>Turn left onto Rodriguez St</cmt>
+<desc>Turn left onto Rodriguez St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79622" lon="-122.45426">
+<ele>25</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:16:16Z</time>
+<cmt>Turn left onto Morton St</cmt>
+<desc>Turn left onto Morton St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79526" lon="-122.45217">
+<ele>45</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:18:52Z</time>
+<cmt>Turn right onto Sibley Rd</cmt>
+<desc>Turn right onto Sibley Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79379" lon="-122.45096">
+<ele>53</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:21:30Z</time>
+<cmt>Turn right onto Vista Ct</cmt>
+<desc>Turn right onto Vista Ct</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79358" lon="-122.45167">
+<ele>48</ele>
+<name>Head north</name>
+<time>2016-08-07T06:22:25Z</time>
+<cmt>Head northeast on Vista Ct toward Sibley Rd</cmt>
+<desc>Head northeast on Vista Ct toward Sibley Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79396" lon="-122.45065">
+<ele>58</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:23:45Z</time>
+<cmt>Turn left onto Liggett Ave</cmt>
+<desc>Turn left onto Liggett Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79513" lon="-122.45202">
+<ele>46</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:25:53Z</time>
+<cmt>Turn right to stay on Liggett Ave</cmt>
+<desc>Turn right to stay on Liggett Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79651" lon="-122.45189">
+<ele>52</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:27:54Z</time>
+<cmt>Turn right onto Sumner St</cmt>
+<desc>Turn right onto Sumner St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79655" lon="-122.45166">
+<ele>54</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:28:09Z</time>
+<cmt>Turn right onto Presidio Blvd</cmt>
+<desc>Turn right onto Presidio Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79628" lon="-122.45151">
+<ele>56</ele>
+<name>Head north</name>
+<time>2016-08-07T06:28:33Z</time>
+<cmt>Head northwest on Presidio Blvd toward Sumner St</cmt>
+<desc>Head northwest on Presidio Blvd toward Sumner St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7992" lon="-122.45259">
+<ele>20</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:33:07Z</time>
+<cmt>Turn left to stay on Presidio Blvd</cmt>
+<desc>Turn left to stay on Presidio Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79864" lon="-122.457">
+<ele>27</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:38:22Z</time>
+<cmt>Turn left onto Mesa St</cmt>
+<desc>Turn left onto Mesa St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79792" lon="-122.45755">
+<ele>30</ele>
+<name>Head south</name>
+<time>2016-08-07T06:39:29Z</time>
+<cmt>Head southwest on Mesa St toward Moraga Ave</cmt>
+<desc>Head southwest on Mesa St toward Moraga Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79732" lon="-122.45803">
+<ele>35</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:40:26Z</time>
+<cmt>Turn right onto Moraga Ave</cmt>
+<desc>Turn right onto Moraga Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79877" lon="-122.46106">
+<ele>44</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:44:11Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79891" lon="-122.46095">
+<ele>40</ele>
+<name>Head north</name>
+<time>2016-08-07T06:44:24Z</time>
+<cmt>Head northeast</cmt>
+<desc>Head northeast</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79907" lon="-122.46083">
+<ele>36</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:44:39Z</time>
+<cmt>Turn left toward Fisher Loop</cmt>
+<desc>Turn left toward Fisher Loop</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79937" lon="-122.46164">
+<ele>57</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:45:36Z</time>
+<cmt>Turn right toward Fisher Loop</cmt>
+<desc>Turn right toward Fisher Loop</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.7994" lon="-122.46162">
+<ele>56</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:45:38Z</time>
+<cmt>Turn left onto Fisher Loop</cmt>
+<desc>Turn left onto Fisher Loop</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79996" lon="-122.46263">
+<ele>49</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:47:03Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80072" lon="-122.46251">
+<ele>40</ele>
+<name>Head north</name>
+<time>2016-08-07T06:48:24Z</time>
+<cmt>Head northwest toward Portal Dr</cmt>
+<desc>Head northwest toward Portal Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80087" lon="-122.46277">
+<ele>40</ele>
+<name>Continue o</name>
+<time>2016-08-07T06:48:44Z</time>
+<cmt>Continue onto North Dr</cmt>
+<desc>Continue onto North Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80091" lon="-122.46285">
+<ele>39</ele>
+<name>Head south</name>
+<time>2016-08-07T06:48:50Z</time>
+<cmt>Head southeast on North Dr toward Portal Dr</cmt>
+<desc>Head southeast on North Dr toward Portal Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80087" lon="-122.46277">
+<ele>40</ele>
+<name>Turn left </name>
+<time>2016-08-07T06:48:56Z</time>
+<cmt>Turn left onto Portal Dr</cmt>
+<desc>Turn left onto Portal Dr</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80104" lon="-122.46131">
+<ele>30</ele>
+<name>Sharp left</name>
+<time>2016-08-07T06:50:38Z</time>
+<cmt>Sharp left onto Sheridan Ave</cmt>
+<desc>Sharp left onto Sheridan Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8012" lon="-122.46146">
+<ele>30</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:50:54Z</time>
+<cmt>Turn right onto Lincoln Blvd</cmt>
+<desc>Turn right onto Lincoln Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80157" lon="-122.46005">
+<ele>21</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:52:29Z</time>
+<cmt>Turn right onto Riley Ave</cmt>
+<desc>Turn right onto Riley Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80145" lon="-122.4601">
+<ele>22</ele>
+<name>Sharp left</name>
+<time>2016-08-07T06:52:39Z</time>
+<cmt>Sharp left</cmt>
+<desc>Sharp left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80105" lon="-122.45868">
+<ele>19</ele>
+<name>Turn left</name>
+<time>2016-08-07T06:54:25Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80116" lon="-122.45859">
+<ele>19</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:54:36Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80114" lon="-122.45855">
+<ele>18</ele>
+<name>Head north</name>
+<time>2016-08-07T06:54:39Z</time>
+<cmt>Head northwest</cmt>
+<desc>Head northwest</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80116" lon="-122.45859">
+<ele>19</ele>
+<name>Turn left</name>
+<time>2016-08-07T06:54:42Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80022" lon="-122.45931">
+<ele>24</ele>
+<name>Turn left</name>
+<time>2016-08-07T06:56:10Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80019" lon="-122.45925">
+<ele>23</ele>
+<name>Head south</name>
+<time>2016-08-07T06:56:15Z</time>
+<cmt>Head southeast toward Montgomery St</cmt>
+<desc>Head southeast toward Montgomery St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80013" lon="-122.45914">
+<ele>23</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:56:23Z</time>
+<cmt>Turn right onto Montgomery St</cmt>
+<desc>Turn right onto Montgomery St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.79951" lon="-122.45962">
+<ele>26</ele>
+<name>Turn right</name>
+<time>2016-08-07T06:57:21Z</time>
+<cmt>Turn right onto Sheridan Ave</cmt>
+<desc>Turn right onto Sheridan Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8012" lon="-122.46146">
+<ele>30</ele>
+<name>Continue o</name>
+<time>2016-08-07T07:00:22Z</time>
+<cmt>Continue onto Lincoln Blvd</cmt>
+<desc>Continue onto Lincoln Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8005" lon="-122.46591">
+<ele>45</ele>
+<name>Head west </name>
+<time>2016-08-07T07:06:14Z</time>
+<cmt>Head west on Lincoln Blvd toward Park Trail</cmt>
+<desc>Head west on Lincoln Blvd toward Park Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80097" lon="-122.46919">
+<ele>51</ele>
+<name>Slight lef</name>
+<time>2016-08-07T07:11:10Z</time>
+<cmt>Slight left onto Ruckman Ave</cmt>
+<desc>Slight left onto Ruckman Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80098" lon="-122.46994">
+<ele>51</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:11:57Z</time>
+<cmt>Turn left onto Appleton St</cmt>
+<desc>Turn left onto Appleton St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80152" lon="-122.47203">
+<ele>63</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:14:59Z</time>
+<cmt>Turn left to stay on Appleton St</cmt>
+<desc>Turn left to stay on Appleton St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8013" lon="-122.47201">
+<ele>64</ele>
+<name>Head north</name>
+<time>2016-08-07T07:15:16Z</time>
+<cmt>Head north on Appleton St</cmt>
+<desc>Head north on Appleton St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80152" lon="-122.47203">
+<ele>63</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:15:34Z</time>
+<cmt>Turn left to stay on Appleton St</cmt>
+<desc>Turn left to stay on Appleton St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80149" lon="-122.47226">
+<ele>63</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:15:49Z</time>
+<cmt>Turn right to stay on Appleton St</cmt>
+<desc>Turn right to stay on Appleton St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80176" lon="-122.47234">
+<ele>63</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:16:11Z</time>
+<cmt>Turn left onto Ruckman Ave</cmt>
+<desc>Turn left onto Ruckman Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8018" lon="-122.47296">
+<ele>66</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:16:51Z</time>
+<cmt>Turn right onto Upton Ave</cmt>
+<desc>Turn right onto Upton Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8032" lon="-122.47311">
+<ele>64</ele>
+<name>Slight lef</name>
+<time>2016-08-07T07:18:48Z</time>
+<cmt>Slight left onto Battery Wagner Rd</cmt>
+<desc>Slight left onto Battery Wagner Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80327" lon="-122.47323">
+<ele>64</ele>
+<name>Continue o</name>
+<time>2016-08-07T07:18:58Z</time>
+<cmt>Continue onto Storey Ave</cmt>
+<desc>Continue onto Storey Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80407" lon="-122.47471">
+<ele>69</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:20:51Z</time>
+<cmt>Turn left onto Stone St</cmt>
+<desc>Turn left onto Stone St</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8039" lon="-122.47571">
+<ele>75</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:21:57Z</time>
+<cmt>Turn left onto Lincoln Blvd</cmt>
+<desc>Turn left onto Lincoln Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8032" lon="-122.4761">
+<ele>78</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:22:58Z</time>
+<cmt>Turn right onto Langdon Ct</cmt>
+<desc>Turn right onto Langdon Ct</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80329" lon="-122.47641">
+<ele>80</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:23:19Z</time>
+<cmt>Turn left to stay on Langdon Ct</cmt>
+<desc>Turn left to stay on Langdon Ct</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80318" lon="-122.47698">
+<ele>79</ele>
+<name>Slight lef</name>
+<time>2016-08-07T07:24:03Z</time>
+<cmt>Slight left onto Dove Loop</cmt>
+<desc>Slight left onto Dove Loop</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80305" lon="-122.47744">
+<ele>77</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:24:34Z</time>
+<cmt>Turn left onto Battery to Bluffs Trail</cmt>
+<desc>Turn left onto Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80262" lon="-122.47778">
+<ele>73</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:25:16Z</time>
+<cmt>Turn left toward Battery to Bluffs Trail</cmt>
+<desc>Turn left toward Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80226" lon="-122.47781">
+<ele>73</ele>
+<name>Slight lef</name>
+<time>2016-08-07T07:25:49Z</time>
+<cmt>Slight left toward Battery to Bluffs Trail</cmt>
+<desc>Slight left toward Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80207" lon="-122.47794">
+<ele>69</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:26:12Z</time>
+<cmt>Turn left toward Battery to Bluffs Trail</cmt>
+<desc>Turn left toward Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80192" lon="-122.47903">
+<ele>33</ele>
+<name>Continue o</name>
+<time>2016-08-07T07:28:27Z</time>
+<cmt>Continue onto Battery to Bluffs Trail</cmt>
+<desc>Continue onto Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80091" lon="-122.47926">
+<ele>33</ele>
+<name>Head north</name>
+<time>2016-08-07T07:29:57Z</time>
+<cmt>Head north on Battery to Bluffs Trail</cmt>
+<desc>Head north on Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80134" lon="-122.47927">
+<ele>29</ele>
+<name>Head north</name>
+<time>2016-08-07T07:30:36Z</time>
+<cmt>Head north on Battery to Bluffs Trail</cmt>
+<desc>Head north on Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80207" lon="-122.47794">
+<ele>69</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:33:43Z</time>
+<cmt>Turn right toward Battery to Bluffs Trail</cmt>
+<desc>Turn right toward Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80262" lon="-122.47778">
+<ele>73</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:34:39Z</time>
+<cmt>Turn right onto Battery to Bluffs Trail</cmt>
+<desc>Turn right onto Battery to Bluffs Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80357" lon="-122.47729">
+<ele>73</ele>
+<name>Head south</name>
+<time>2016-08-07T07:36:04Z</time>
+<cmt>Head south toward Dove Loop</cmt>
+<desc>Head south toward Dove Loop</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80305" lon="-122.47744">
+<ele>77</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:36:47Z</time>
+<cmt>Turn left onto Dove Loop</cmt>
+<desc>Turn left onto Dove Loop</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80318" lon="-122.47698">
+<ele>79</ele>
+<name>Slight rig</name>
+<time>2016-08-07T07:37:18Z</time>
+<cmt>Slight right onto Langdon Ct</cmt>
+<desc>Slight right onto Langdon Ct</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80329" lon="-122.47641">
+<ele>80</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:38:02Z</time>
+<cmt>Turn right to stay on Langdon Ct</cmt>
+<desc>Turn right to stay on Langdon Ct</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80324" lon="-122.47625">
+<ele>79</ele>
+<name>Turn left</name>
+<time>2016-08-07T07:38:12Z</time>
+<cmt>Turn left</cmt>
+<desc>Turn left</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80408" lon="-122.47606">
+<ele>76</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:39:23Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80442" lon="-122.47576">
+<ele>73</ele>
+<name>Slight lef</name>
+<time>2016-08-07T07:39:59Z</time>
+<cmt>Slight left at Merchant Rd</cmt>
+<desc>Slight left at Merchant Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80561" lon="-122.47588">
+<ele>62</ele>
+<name>Head south</name>
+<time>2016-08-07T07:41:44Z</time>
+<cmt>Head southeast toward Merchant Rd</cmt>
+<desc>Head southeast toward Merchant Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80442" lon="-122.47576">
+<ele>73</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:43:29Z</time>
+<cmt>Turn left onto Merchant Rd</cmt>
+<desc>Turn left onto Merchant Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80442" lon="-122.47567">
+<ele>72</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:43:35Z</time>
+<cmt>Turn left onto Lincoln Blvd</cmt>
+<desc>Turn left onto Lincoln Blvd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80692" lon="-122.4724">
+<ele>44</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:48:54Z</time>
+<cmt>Turn left onto Battery East Rd</cmt>
+<desc>Turn left onto Battery East Rd</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80775" lon="-122.47347">
+<ele>38</ele>
+<name>Continue o</name>
+<time>2016-08-07T07:50:30Z</time>
+<cmt>Continue onto Battery E Trail</cmt>
+<desc>Continue onto Battery E Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80824" lon="-122.4752">
+<ele>44</ele>
+<name>Turn left </name>
+<time>2016-08-07T07:52:28Z</time>
+<cmt>Turn left toward Coastal Trail</cmt>
+<desc>Turn left toward Coastal Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80799" lon="-122.47528">
+<ele>47</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:52:51Z</time>
+<cmt>Turn right onto Coastal Trail</cmt>
+<desc>Turn right onto Coastal Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80754" lon="-122.47492">
+<ele>49</ele>
+<name>Turn right</name>
+<time>2016-08-07T07:53:39Z</time>
+<cmt>Turn right</cmt>
+<desc>Turn right</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80738" lon="-122.47516">
+<ele>51</ele>
+<name>Head west </name>
+<time>2016-08-07T07:53:59Z</time>
+<cmt>Head west toward Coastal Trail</cmt>
+<desc>Head west toward Coastal Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80924" lon="-122.47713">
+<ele>18</ele>
+<name>Head north</name>
+<time>2016-08-07T07:57:23Z</time>
+<cmt>Head north</cmt>
+<desc>Head north</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.81064" lon="-122.47733">
+<ele>8</ele>
+<name>Head south</name>
+<time>2016-08-07T07:59:17Z</time>
+<cmt>Head south</cmt>
+<desc>Head south</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80807" lon="-122.4763">
+<ele>49</ele>
+<name>Turn left </name>
+<time>2016-08-07T08:02:59Z</time>
+<cmt>Turn left toward Coastal Trail</cmt>
+<desc>Turn left toward Coastal Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80818" lon="-122.47591">
+<ele>48</ele>
+<name>Turn left </name>
+<time>2016-08-07T08:03:26Z</time>
+<cmt>Turn left onto Coastal Trail</cmt>
+<desc>Turn left onto Coastal Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80795" lon="-122.47535">
+<ele>47</ele>
+<name>Turn left </name>
+<time>2016-08-07T08:04:18Z</time>
+<cmt>Turn left toward Battery E Trail</cmt>
+<desc>Turn left toward Battery E Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80824" lon="-122.4752">
+<ele>44</ele>
+<name>Turn right</name>
+<time>2016-08-07T08:04:47Z</time>
+<cmt>Turn right onto Battery E Trail</cmt>
+<desc>Turn right onto Battery E Trail</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80804" lon="-122.47427">
+<ele>41</ele>
+<name>Turn left </name>
+<time>2016-08-07T08:05:49Z</time>
+<cmt>Turn left toward Long Ave</cmt>
+<desc>Turn left toward Long Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80823" lon="-122.4742">
+<ele>38</ele>
+<name>Turn right</name>
+<time>2016-08-07T08:06:05Z</time>
+<cmt>Turn right toward Long Ave</cmt>
+<desc>Turn right toward Long Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80789" lon="-122.47297">
+<ele>35</ele>
+<name>Turn left </name>
+<time>2016-08-07T08:07:29Z</time>
+<cmt>Turn left toward Long Ave</cmt>
+<desc>Turn left toward Long Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80803" lon="-122.4728">
+<ele>33</ele>
+<name>Turn left </name>
+<time>2016-08-07T08:07:47Z</time>
+<cmt>Turn left toward Long Ave</cmt>
+<desc>Turn left toward Long Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.80822" lon="-122.4725">
+<ele>29</ele>
+<name>Turn left </name>
+<time>2016-08-07T08:09:38Z</time>
+<cmt>Turn left onto Long Ave</cmt>
+<desc>Turn left onto Long Ave</desc>
+<sym>undefined</sym>
+</rtept>
+<rtept lat="37.8088" lon="-122.47212">
+<ele>11</ele>
+<name>Continue o</name>
+<time>2016-08-07T08:11:23Z</time>
+<cmt>Continue onto Marine Dr</cmt>
+<desc>Continue onto Marine Dr</desc>
+<sym>undefined</sym>
+</rtept>
+</rte>
+</gpx>
